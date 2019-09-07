@@ -1,0 +1,154 @@
+<template>
+	<layout>
+		<div class="container mx-auto py-6">
+			<div class="mb-10 max-w-4xl mx-auto text-center">
+				<heading size="display" class="mb-3">Build Laravel-Vue apps & websites with speed</heading>
+
+				<heading
+					size="normal"
+				>A simple, modular and component library that gives you all the building blocks you need to build your Laravel-Vue applications.</heading>
+
+				<div class="mt-6 mb-10">
+					<a
+						href="#"
+						class="inline-flex align-items-center justify-center rounded-lg font-semibold mr-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3"
+					>Get Started</a>
+					<a
+						href="#"
+						class="inline-flex align-items-center justify-center rounded-lg font-semibold bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-3"
+					>View Examples</a>
+				</div>
+
+				<!-- <img src="/bg.svg" alt="hero-bg" width="500" class="mx-auto" /> -->
+			</div>
+		</div>
+	</layout>
+</template>
+
+<script>
+import Layout from "@/Shared/Layout";
+import Heading from "@/Shared/tuis/Heading.vue";
+
+const code = `<form @submit.prevent="save" enctype="multipart/form-data" method="post">
+	<card with-header with-footer>
+		<template slot="header">
+			<heading size="heading">Form with Image Upload</heading>
+		</template>
+
+		<select-input
+			class="mb-5"
+			label="Select fruit"
+			v-model="selectedValue"
+			:options="options"
+			:errors="errors['selectedValue']"
+			@input="delete errors['selectedValue']"
+		></select-input>
+
+		<text-input
+			class="mb-5"
+			label="Text Input"
+			v-model="text"
+			:errors="errors['text']"
+			@input="delete errors['text']"
+		></text-input>
+
+		<file-input
+			v-model="photo"
+			class="pr-6 pb-8 w-full lg:w-1/2"
+			type="file"
+			accept="image/*"
+			label="Photo"
+			:errors="errors['photo']"
+		/>
+
+		<template slot="footer">
+			<loading-button
+				ref="cancelButton"
+				variant="secondary"
+				variant-type="outline"
+				type="submit"
+			>Cancel</loading-button>
+			<loading-button ref="submitButton" variant="primary" type="submit">Save Button</loading-button>
+		</template>
+	</card>
+</form>`;
+
+export default {
+	components: {
+		Layout,
+		Heading
+	},
+
+	props: {
+		errors: Object
+	},
+
+	data() {
+		return {
+			code: code,
+			loading: false,
+
+			photo: null,
+			text: "",
+			selectedValue: "Apple",
+
+			options: [
+				{
+					label: "Apple",
+					value: "Apple"
+				},
+				{
+					label: "Banana",
+					value: "Banana"
+				},
+				{
+					label: "Blueberry",
+					value: "Blueberry"
+				},
+				{
+					label: "Kiwi",
+					value: "Kiwi"
+				},
+				{
+					label: "Pear",
+					value: "Pear"
+				},
+				{
+					label: "Pineapple",
+					value: "Pineapple"
+				},
+				{
+					label: "Watermelon",
+					value: "Watermelon"
+				}
+			]
+
+			// errors: {
+			// 	selectedValue: ["This field is required"]
+			// }
+			// errors: {}
+		};
+	},
+
+	methods: {
+		save() {
+			var data = new FormData();
+
+			data.append("selectedValue", this.selectedValue || "");
+			data.append("photo", this.photo || "");
+			data.append("text", this.text || "");
+
+			this.$refs.submitButton.startLoading();
+
+			this.$inertia
+				.post("/test/store", data)
+				.then(() => {
+					this.$refs.submitButton.stopLoading();
+				})
+				.catch(() => {
+					this.$refs.submitButton.stopLoading();
+				});
+		}
+	}
+};
+</script>

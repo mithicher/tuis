@@ -1,0 +1,290 @@
+<template>
+	<main>
+		<header class="bg-white shadow-base z-50 relative">
+			<div class="px-5 flex justify-between mx-auto items-center">
+				<div class="flex items-center">
+					<div
+						class="inline-block inline-flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full mr-2 cursor-pointer"
+						@click="toggleMenu"
+					>
+						<svg
+							class="fill-current text-gray-600"
+							xmlns="http://www.w3.org/2000/svg"
+							width="24"
+							height="24"
+							viewBox="0 0 24 24"
+						>
+							<path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+						</svg>
+					</div>
+					<a href="#" class="inline-flex font-bold text-2xl text-gray-800">tuis</a>
+				</div>
+				<div class="text-center hidden sm:flex">
+					<inertia-link
+						:class="isUrl('') ? 'active text-blue-500' : ''"
+						class="font-medium inline-block py-5 px-5"
+						href="/"
+					>Home</inertia-link>
+
+					<inertia-link
+						:class="isUrl('about') ? 'active text-blue-500' : ''"
+						class="font-medium inline-block py-5 px-5 hover:text-blue-500"
+						href="/about"
+					>About</inertia-link>
+
+					<inertia-link
+						class="font-medium inline-block py-5 px-5 hover:text-blue-500"
+						href="/contact"
+					>Examples</inertia-link>
+
+					<inertia-link
+						class="font-medium inline-block py-5 px-5 hover:text-blue-500"
+						href="/contact"
+					>UI Components</inertia-link>
+				</div>
+				<div>
+					<a href="#" class="font-medium inline-block py-5">version v1.0.0</a>
+				</div>
+			</div>
+
+			<div class="text-center block sm:hidden flex justify-between">
+				<inertia-link
+					:class="isUrl('') ? 'active text-blue-500' : ''"
+					class="font-medium inline-block py-2 px-5"
+					href="/"
+				>Home</inertia-link>
+
+				<inertia-link
+					:class="isUrl('about') ? 'active text-blue-500' : ''"
+					class="font-medium inline-block py-2 px-5 hover:text-blue-500"
+					href="/about"
+				>About</inertia-link>
+
+				<inertia-link
+					class="font-medium inline-block py-2 px-5 hover:text-blue-500"
+					href="/contact"
+				>Examples</inertia-link>
+
+				<inertia-link
+					class="font-medium inline-block py-2 px-5 hover:text-blue-500"
+					href="/contact"
+				>UI Components</inertia-link>
+			</div>
+		</header>
+
+		<article>
+			<div class="flex">
+				<div class="h-screen sticky top-0 bg-white w-64 overflow-y-auto" v-if="showNav && !isUrl('')">
+					<div class="py-5 mx-2">
+						<div class="uppercase tracking-wider text-sm px-5 text-gray-500 mb-1 font-bold">Components</div>
+						<inertia-link
+							:class="isUrl('alert') ? 'text-blue-500 bg-gray-100' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/alert"
+						>Alert</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/about"
+						>Avatar</inertia-link>
+
+						<inertia-link
+							:class="isUrl('badge') ? 'text-blue-500 bg-gray-100' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/badge"
+						>Badge</inertia-link>
+
+						<inertia-link
+							:class="isUrl('button') ? 'text-blue-500 bg-gray-100' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/button"
+						>Button</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Card</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Checkbox</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Dropdown</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Empty State</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Heading</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Icon</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Input</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Radio</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Select</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Search</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Spinner</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Switch</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Table</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Text Editor</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Toast</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Uploader</inertia-link>
+					</div>
+
+					<div class="py-5 mx-2">
+						<div class="uppercase tracking-wider text-sm px-5 text-gray-500 mb-1 font-bold">UI Examples</div>
+						<inertia-link
+							:class="isUrl('') ? 'text-blue-500' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/"
+						>Navbar</inertia-link>
+
+						<inertia-link
+							:class="isUrl('about') ? 'text-blue-500' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/about"
+						>Login</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Register</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Contact Form</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Table</inertia-link>
+
+						<inertia-link
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/contact"
+						>Modal</inertia-link>
+					</div>
+				</div>
+				<div class="px-6 py-10 flex-1">
+					<slot />
+				</div>
+			</div>
+		</article>
+	</main>
+</template>
+
+<script>
+export default {
+	data() {
+		return {
+			showNav: true
+		};
+	},
+
+	methods: {
+		toggleMenu() {
+			this.showNav = !this.showNav;
+		},
+
+		isUrl(...urls) {
+			if (urls[0] === "") {
+				return location.pathname.substr(1) === "";
+			}
+
+			return urls.filter(url =>
+				location.pathname.substr(1).startsWith(url)
+			).length;
+		}
+	}
+};
+</script>
+
+<style>
+.active,
+.active-left {
+	position: relative;
+}
+.active:after {
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	right: 0;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	content: "";
+	height: 3px;
+	width: 100%;
+	border-radius: 1000px;
+	border-bottom-left-radius: 0px;
+	border-bottom-right-radius: 0px;
+	background-color: #4299e1;
+}
+.active-left:after {
+	top: 0;
+	bottom: 0;
+	position: absolute;
+	left: 0;
+	display: block;
+	margin-top: auto;
+	margin-bottom: auto;
+	content: "";
+	height: 80%;
+	width: 5px;
+	border-radius: 1000px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+	background-color: #4299e1;
+}
+</style>
