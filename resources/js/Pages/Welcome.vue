@@ -1,25 +1,31 @@
 <template>
 	<layout>
-		<div class="container mx-auto py-6">
-			<div class="mb-10 max-w-4xl mx-auto text-center">
-				<heading size="display" class="mb-3">Build Laravel-Vue apps & websites with speed</heading>
+		<div class="container mx-auto py-10">
+			<div class="md:flex max-w-6xl mx-auto items-center">
+				<div class="md:w-1/2">
+					<heading size="display" class="mb-5 hidden md:block">September UI Components</heading>
+					<heading size="heading2" class="mb-5 md:hidden">September UI Components</heading>
 
-				<heading
-					size="normal"
-				>A simple, modular and component library that gives you all the building blocks you need to build your Laravel-Vue applications.</heading>
+					<heading
+						size="normal"
+					>Build Laravel-Vue websites with speed. A collection of simple, modular and component library that gives you the building blocks you need to build your Laravel-Vue applications.</heading>
 
-				<div class="mt-6 mb-10">
-					<a
-						href="#"
-						class="inline-flex align-items-center justify-center rounded-lg font-semibold mr-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3"
-					>Get Started</a>
-					<a
-						href="#"
-						class="inline-flex align-items-center justify-center rounded-lg font-semibold bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-3"
-					>View Examples</a>
+					<div class="mt-6 mb-6">
+						<a
+							href="#"
+							class="inline-flex align-items-center justify-center rounded-lg font-semibold mr-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3"
+						>Get Started</a>
+						<a
+							href="#"
+							class="inline-flex align-items-center justify-center rounded-lg font-semibold bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-3"
+						>View Examples</a>
+					</div>
+
+					<span class="text-gray-600">current version v1.0.0</span>
 				</div>
-
-				<!-- <img src="/bg.svg" alt="hero-bg" width="500" class="mx-auto" /> -->
+				<div class="md:w-1/2">
+					<img src="/bg.svg" alt="hero-bg" width="450" class="mx-auto" />
+				</div>
 			</div>
 		</div>
 	</layout>

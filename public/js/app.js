@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"d06cad776b06f9bfa62c","2":"0745681ad7289f1244e7","3":"83143773c3a0d37a30fb","4":"386c31bb930480f98ee8","5":"804347a999299cbb425c","6":"7b5b973499726a4452e2","7":"0f248ec1e62250195017","8":"d7e699d4fc994bcf89bd","9":"e5d6958a6d1df514346c"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"23fd17a91328d3730e9d","2":"a50f24a433c4b23ae894","3":"cda8f35477afe853c2de","5":"d31c181483f3b8a1cc77","6":"58c10dbe841c47cac46d","10":"532cb5b317770d1493c8","11":"0821c686ce50c3d0481d","12":"f979fb5c3ff19995efea","13":"d24a1cdbb9bbfa60c4d0","14":"371a4b3ca15057f82ab1"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11432,91 +11432,107 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./About": [
-		"./resources/js/Pages/About.vue",
-		4,
-		0,
-		3,
-		7
-	],
-	"./About.vue": [
-		"./resources/js/Pages/About.vue",
-		4,
-		0,
-		3,
-		7
-	],
 	"./Alert": [
 		"./resources/js/Pages/Alert.vue",
-		4,
+		1,
 		0,
 		3,
-		6,
-		2
+		5,
+		11
 	],
 	"./Alert.vue": [
 		"./resources/js/Pages/Alert.vue",
-		4,
+		1,
 		0,
 		3,
-		6,
-		2
+		5,
+		11
 	],
 	"./Badge": [
 		"./resources/js/Pages/Badge.vue",
-		4,
+		1,
 		0,
 		3,
-		6,
-		5
+		5,
+		10
 	],
 	"./Badge.vue": [
 		"./resources/js/Pages/Badge.vue",
-		4,
+		1,
 		0,
 		3,
-		6,
-		5
+		5,
+		10
 	],
 	"./Button": [
 		"./resources/js/Pages/Button.vue",
-		4,
+		1,
 		0,
 		3,
-		6,
-		1
+		5,
+		12
 	],
 	"./Button.vue": [
 		"./resources/js/Pages/Button.vue",
-		4,
+		1,
 		0,
 		3,
-		6,
-		1
+		5,
+		12
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
-		4,
+		1,
 		3,
-		9
+		14
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
-		4,
+		1,
 		3,
-		9
+		14
+	],
+	"./Examples/Navbar": [
+		"./resources/js/Pages/Examples/Navbar.vue",
+		1,
+		0,
+		3,
+		5,
+		6
+	],
+	"./Examples/Navbar.vue": [
+		"./resources/js/Pages/Examples/Navbar.vue",
+		1,
+		0,
+		3,
+		5,
+		6
+	],
+	"./GetStarted": [
+		"./resources/js/Pages/GetStarted.vue",
+		1,
+		0,
+		3,
+		2
+	],
+	"./GetStarted.vue": [
+		"./resources/js/Pages/GetStarted.vue",
+		1,
+		0,
+		3,
+		2
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
-		4,
+		1,
 		3,
-		8
+		13
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
-		4,
+		1,
 		3,
-		8
+		13
 	]
 };
 function webpackAsyncContext(req) {

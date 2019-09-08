@@ -76,7 +76,7 @@ export default {
 </script>
 
 <style>
-/* .form-date svg {
+.form-date svg {
 	right: 50px !important;
-} */
+}
 </style>

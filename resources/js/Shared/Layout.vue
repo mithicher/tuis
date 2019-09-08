@@ -6,6 +6,7 @@
 					<div
 						class="inline-block inline-flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full mr-2 cursor-pointer"
 						@click="toggleMenu"
+						v-if="!isUrl('')"
 					>
 						<svg
 							class="fill-current text-gray-600"
@@ -17,7 +18,7 @@
 							<path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
 						</svg>
 					</div>
-					<a href="#" class="inline-flex font-bold text-2xl text-gray-800">tuis</a>
+					<a href="#" class="inline-flex font-bold text-2xl text-gray-800">September-UI</a>
 				</div>
 				<div class="text-center hidden sm:flex">
 					<inertia-link
@@ -27,20 +28,14 @@
 					>Home</inertia-link>
 
 					<inertia-link
-						:class="isUrl('about') ? 'active text-blue-500' : ''"
 						class="font-medium inline-block py-5 px-5 hover:text-blue-500"
-						href="/about"
-					>About</inertia-link>
-
-					<inertia-link
-						class="font-medium inline-block py-5 px-5 hover:text-blue-500"
-						href="/contact"
-					>Examples</inertia-link>
-
-					<inertia-link
-						class="font-medium inline-block py-5 px-5 hover:text-blue-500"
-						href="/contact"
+						href="/alert"
 					>UI Components</inertia-link>
+
+					<inertia-link
+						class="font-medium inline-block py-5 px-5 hover:text-blue-500"
+						href="/example-navbar"
+					>Examples</inertia-link>
 				</div>
 				<div>
 					<a href="#" class="font-medium inline-block py-5">version v1.0.0</a>
@@ -184,9 +179,9 @@
 					<div class="py-5 mx-2">
 						<div class="uppercase tracking-wider text-sm px-5 text-gray-500 mb-1 font-bold">UI Examples</div>
 						<inertia-link
-							:class="isUrl('') ? 'text-blue-500' : ''"
+							:class="isUrl('example-navbar') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/"
+							href="/example-navbar"
 						>Navbar</inertia-link>
 
 						<inertia-link

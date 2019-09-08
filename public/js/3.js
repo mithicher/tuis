@@ -230,11 +230,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -334,33 +329,37 @@ var render = function() {
         { staticClass: "px-5 flex justify-between mx-auto items-center" },
         [
           _c("div", { staticClass: "flex items-center" }, [
-            _c(
-              "div",
-              {
-                staticClass:
-                  "inline-block inline-flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full mr-2 cursor-pointer",
-                on: { click: _vm.toggleMenu }
-              },
-              [
-                _c(
-                  "svg",
+            !_vm.isUrl("")
+              ? _c(
+                  "div",
                   {
-                    staticClass: "fill-current text-gray-600",
-                    attrs: {
-                      xmlns: "http://www.w3.org/2000/svg",
-                      width: "24",
-                      height: "24",
-                      viewBox: "0 0 24 24"
-                    }
+                    staticClass:
+                      "inline-block inline-flex items-center justify-center w-8 h-8 bg-gray-100 rounded-full mr-2 cursor-pointer",
+                    on: { click: _vm.toggleMenu }
                   },
                   [
-                    _c("path", {
-                      attrs: { d: "M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" }
-                    })
+                    _c(
+                      "svg",
+                      {
+                        staticClass: "fill-current text-gray-600",
+                        attrs: {
+                          xmlns: "http://www.w3.org/2000/svg",
+                          width: "24",
+                          height: "24",
+                          viewBox: "0 0 24 24"
+                        }
+                      },
+                      [
+                        _c("path", {
+                          attrs: {
+                            d: "M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"
+                          }
+                        })
+                      ]
+                    )
                   ]
                 )
-              ]
-            ),
+              : _vm._e(),
             _vm._v(" "),
             _c(
               "a",
@@ -368,7 +367,7 @@ var render = function() {
                 staticClass: "inline-flex font-bold text-2xl text-gray-800",
                 attrs: { href: "#" }
               },
-              [_vm._v("tuis")]
+              [_vm._v("September-UI")]
             )
           ]),
           _vm._v(" "),
@@ -391,30 +390,19 @@ var render = function() {
                 {
                   staticClass:
                     "font-medium inline-block py-5 px-5 hover:text-blue-500",
-                  class: _vm.isUrl("about") ? "active text-blue-500" : "",
-                  attrs: { href: "/about" }
-                },
-                [_vm._v("About")]
-              ),
-              _vm._v(" "),
-              _c(
-                "inertia-link",
-                {
-                  staticClass:
-                    "font-medium inline-block py-5 px-5 hover:text-blue-500",
-                  attrs: { href: "/contact" }
-                },
-                [_vm._v("Examples")]
-              ),
-              _vm._v(" "),
-              _c(
-                "inertia-link",
-                {
-                  staticClass:
-                    "font-medium inline-block py-5 px-5 hover:text-blue-500",
-                  attrs: { href: "/contact" }
+                  attrs: { href: "/alert" }
                 },
                 [_vm._v("UI Components")]
+              ),
+              _vm._v(" "),
+              _c(
+                "inertia-link",
+                {
+                  staticClass:
+                    "font-medium inline-block py-5 px-5 hover:text-blue-500",
+                  attrs: { href: "/example-navbar" }
+                },
+                [_vm._v("Examples")]
               )
             ],
             1
@@ -726,8 +714,10 @@ var render = function() {
                       {
                         staticClass:
                           "rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500",
-                        class: _vm.isUrl("") ? "text-blue-500" : "",
-                        attrs: { href: "/" }
+                        class: _vm.isUrl("example-navbar")
+                          ? "text-blue-500 bg-gray-100"
+                          : "",
+                        attrs: { href: "/example-navbar" }
                       },
                       [_vm._v("Navbar")]
                     ),

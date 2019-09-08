@@ -1,7 +1,7 @@
 <template>
 	<layout>
 		<div class="mb-10 w-2/3 mx-auto">
-			<h1 class="text-3xl font-bold mb-4 text-gray-800">File Input</h1>
+			<h1 class="text-3xl font-bold mb-4 text-gray-800">Introduction</h1>
 			<heading
 				class="mb-10"
 			>Input component enables the user to interact with and input content and data. The form input allows you to create various text style inputs such as text, password, email, number, url, search and more.</heading>

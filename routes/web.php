@@ -15,14 +15,15 @@ use Inertia\Inertia;
 Route::get('/', function () {
     return Inertia::render('Welcome');
 });
-Route::get('/about', function () {
-    return Inertia::render('About');
+Route::get('/get-started', function () {
+    return Inertia::render('GetStarted');
 });
 Route::get('/contact', function () {
     return Inertia::render('Contact');
 });
 
 
+// UI Components
 Route::get('/alert', function () {
     return Inertia::render('Alert');
 });
@@ -35,5 +36,11 @@ Route::get('/button', function () {
     return Inertia::render('Button');
 });
 
+
+// UI Examples
+
+Route::get('/example-navbar', function () {
+    return Inertia::render('Examples/Navbar');
+});
 
 Route::post('/test/store', 'TestController@store');

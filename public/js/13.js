@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[7],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([[13],{
 
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/Pages/Welcome.vue?vue&type=script&lang=js&":
 /*!*************************************************************************************************************************************************************!*\
@@ -11,6 +11,12 @@
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @/Shared/Layout */ "./resources/js/Shared/Layout.vue");
 /* harmony import */ var _Shared_tuis_Heading_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/Shared/tuis/Heading.vue */ "./resources/js/Shared/tuis/Heading.vue");
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -149,8 +155,10 @@ __webpack_require__.r(__webpack_exports__);
       return {
         "text-base text-gray-600 leading-normal": this.size == "normal",
         "text-2xl text-gray-800 font-bold leading-tight": this.size == "heading",
+        "text-4xl text-gray-800 font-bold leading-tight": this.size == "heading2",
         "text-gray-500 text-xs font-bold tracking-wider uppercase": this.size == "small-caps",
-        "text-5xl text-gray-800 leading-none font-semibold tracking-tight": this.size == "display"
+        "text-5xl text-gray-800 leading-none font-bold tracking-tight": this.size == "display",
+        "text-6xl text-gray-800 leading-none font-bold tracking-tight": this.size == "display2"
       };
     }
   }
@@ -174,45 +182,69 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("layout", [
-    _c("div", { staticClass: "container mx-auto py-6" }, [
-      _c(
-        "div",
-        { staticClass: "mb-10 max-w-4xl mx-auto text-center" },
-        [
-          _c("heading", { staticClass: "mb-3", attrs: { size: "display" } }, [
-            _vm._v("Build Laravel-Vue apps & websites with speed")
-          ]),
-          _vm._v(" "),
-          _c("heading", { attrs: { size: "normal" } }, [
-            _vm._v(
-              "A simple, modular and component library that gives you all the building blocks you need to build your Laravel-Vue applications."
-            )
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "mt-6 mb-10" }, [
+    _c("div", { staticClass: "container mx-auto py-10" }, [
+      _c("div", { staticClass: "md:flex max-w-6xl mx-auto items-center" }, [
+        _c(
+          "div",
+          { staticClass: "md:w-1/2" },
+          [
             _c(
-              "a",
+              "heading",
               {
-                staticClass:
-                  "inline-flex align-items-center justify-center rounded-lg font-semibold mr-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3",
-                attrs: { href: "#" }
+                staticClass: "mb-5 hidden md:block",
+                attrs: { size: "display" }
               },
-              [_vm._v("Get Started")]
+              [_vm._v("September UI Components")]
             ),
             _vm._v(" "),
             _c(
-              "a",
-              {
-                staticClass:
-                  "inline-flex align-items-center justify-center rounded-lg font-semibold bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-3",
-                attrs: { href: "#" }
-              },
-              [_vm._v("View Examples")]
-            )
-          ])
-        ],
-        1
-      )
+              "heading",
+              { staticClass: "mb-5 md:hidden", attrs: { size: "heading2" } },
+              [_vm._v("September UI Components")]
+            ),
+            _vm._v(" "),
+            _c("heading", { attrs: { size: "normal" } }, [
+              _vm._v(
+                "Build Laravel-Vue websites with speed. A collection of simple, modular and component library that gives you the building blocks you need to build your Laravel-Vue applications."
+              )
+            ]),
+            _vm._v(" "),
+            _c("div", { staticClass: "mt-6 mb-6" }, [
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "inline-flex align-items-center justify-center rounded-lg font-semibold mr-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3",
+                  attrs: { href: "#" }
+                },
+                [_vm._v("Get Started")]
+              ),
+              _vm._v(" "),
+              _c(
+                "a",
+                {
+                  staticClass:
+                    "inline-flex align-items-center justify-center rounded-lg font-semibold bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-3",
+                  attrs: { href: "#" }
+                },
+                [_vm._v("View Examples")]
+              )
+            ]),
+            _vm._v(" "),
+            _c("span", { staticClass: "text-gray-600" }, [
+              _vm._v("current version v1.0.0")
+            ])
+          ],
+          1
+        ),
+        _vm._v(" "),
+        _c("div", { staticClass: "md:w-1/2" }, [
+          _c("img", {
+            staticClass: "mx-auto",
+            attrs: { src: "/bg.svg", alt: "hero-bg", width: "450" }
+          })
+        ])
+      ])
     ])
   ])
 }
@@ -263,113 +295,6 @@ var render = function() {
 var staticRenderFns = []
 render._withStripped = true
 
-
-
-/***/ }),
-
-/***/ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/runtime/componentNormalizer.js ***!
-  \********************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return normalizeComponent; });
-/* globals __VUE_SSR_CONTEXT__ */
-
-// IMPORTANT: Do NOT use ES2015 features in this file (except for modules).
-// This module is a runtime utility for cleaner component module output and will
-// be included in the final webpack user bundle.
-
-function normalizeComponent (
-  scriptExports,
-  render,
-  staticRenderFns,
-  functionalTemplate,
-  injectStyles,
-  scopeId,
-  moduleIdentifier, /* server only */
-  shadowMode /* vue-cli only */
-) {
-  // Vue.extend constructor export interop
-  var options = typeof scriptExports === 'function'
-    ? scriptExports.options
-    : scriptExports
-
-  // render functions
-  if (render) {
-    options.render = render
-    options.staticRenderFns = staticRenderFns
-    options._compiled = true
-  }
-
-  // functional template
-  if (functionalTemplate) {
-    options.functional = true
-  }
-
-  // scopedId
-  if (scopeId) {
-    options._scopeId = 'data-v-' + scopeId
-  }
-
-  var hook
-  if (moduleIdentifier) { // server build
-    hook = function (context) {
-      // 2.3 injection
-      context =
-        context || // cached call
-        (this.$vnode && this.$vnode.ssrContext) || // stateful
-        (this.parent && this.parent.$vnode && this.parent.$vnode.ssrContext) // functional
-      // 2.2 with runInNewContext: true
-      if (!context && typeof __VUE_SSR_CONTEXT__ !== 'undefined') {
-        context = __VUE_SSR_CONTEXT__
-      }
-      // inject component styles
-      if (injectStyles) {
-        injectStyles.call(this, context)
-      }
-      // register component module identifier for async chunk inferrence
-      if (context && context._registeredComponents) {
-        context._registeredComponents.add(moduleIdentifier)
-      }
-    }
-    // used by ssr in case component is cached and beforeCreate
-    // never gets called
-    options._ssrRegister = hook
-  } else if (injectStyles) {
-    hook = shadowMode
-      ? function () { injectStyles.call(this, this.$root.$options.shadowRoot) }
-      : injectStyles
-  }
-
-  if (hook) {
-    if (options.functional) {
-      // for template-only hot-reload because in that case the render fn doesn't
-      // go through the normalizer
-      options._injectStyles = hook
-      // register for functioal component in vue file
-      var originalRender = options.render
-      options.render = function renderWithStyleInjection (h, context) {
-        hook.call(context)
-        return originalRender(h, context)
-      }
-    } else {
-      // inject component registration as beforeCreate hook
-      var existing = options.beforeCreate
-      options.beforeCreate = existing
-        ? [].concat(existing, hook)
-        : [hook]
-    }
-  }
-
-  return {
-    exports: scriptExports,
-    options: options
-  }
-}
 
 
 /***/ }),
