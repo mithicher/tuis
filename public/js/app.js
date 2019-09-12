@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"23fd17a91328d3730e9d","2":"a50f24a433c4b23ae894","3":"cda8f35477afe853c2de","5":"d31c181483f3b8a1cc77","6":"58c10dbe841c47cac46d","10":"532cb5b317770d1493c8","11":"0821c686ce50c3d0481d","12":"f979fb5c3ff19995efea","13":"d24a1cdbb9bbfa60c4d0","14":"371a4b3ca15057f82ab1"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"5e17607e53804ee5783b","2":"68588f6ce1cc6f605752","3":"0517bb7927b26df9f196","4":"e654bf68434cb7ce048b","6":"f7ea3d110e2d0f911266","8":"ddb273bfe559b9b99ecf","14":"05e7e458885d51e70025","15":"3aadecb1859f1885389f","16":"b96e21e732c87c77fd6a","17":"1da3ff831443ca1796b1","18":"a85c04f81d2a86583c11","19":"ee5c05963352f44af301","20":"880ba857dcdc0da8aaf3","21":"da0d5d99e2d34e574ec0","22":"34de42df270fda1655f0","23":"2c3b533770540bf8f8c8","24":"549c494f64d4de1ccb5f"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11434,105 +11434,217 @@ module.exports = g;
 var map = {
 	"./Alert": [
 		"./resources/js/Pages/Alert.vue",
-		1,
-		0,
 		3,
-		5,
-		11
+		0,
+		2,
+		6,
+		17
 	],
 	"./Alert.vue": [
 		"./resources/js/Pages/Alert.vue",
-		1,
-		0,
 		3,
-		5,
-		11
+		0,
+		2,
+		6,
+		17
 	],
 	"./Badge": [
 		"./resources/js/Pages/Badge.vue",
-		1,
-		0,
 		3,
-		5,
-		10
+		0,
+		2,
+		6,
+		15
 	],
 	"./Badge.vue": [
 		"./resources/js/Pages/Badge.vue",
-		1,
-		0,
 		3,
-		5,
-		10
+		0,
+		2,
+		6,
+		15
 	],
 	"./Button": [
 		"./resources/js/Pages/Button.vue",
-		1,
-		0,
 		3,
-		5,
-		12
+		0,
+		2,
+		6,
+		18
 	],
 	"./Button.vue": [
 		"./resources/js/Pages/Button.vue",
-		1,
-		0,
 		3,
-		5,
-		12
+		0,
+		2,
+		6,
+		18
+	],
+	"./Card": [
+		"./resources/js/Pages/Card.vue",
+		3,
+		0,
+		2,
+		6,
+		22
+	],
+	"./Card.vue": [
+		"./resources/js/Pages/Card.vue",
+		3,
+		0,
+		2,
+		6,
+		22
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
-		1,
 		3,
-		14
+		2,
+		24
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
-		1,
 		3,
-		14
+		2,
+		24
 	],
 	"./Examples/Navbar": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		1,
-		0,
 		3,
-		5,
-		6
+		0,
+		2,
+		6,
+		16
 	],
 	"./Examples/Navbar.vue": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		1,
-		0,
 		3,
-		5,
-		6
+		0,
+		2,
+		6,
+		16
 	],
 	"./GetStarted": [
 		"./resources/js/Pages/GetStarted.vue",
-		1,
-		0,
 		3,
-		2
+		0,
+		2,
+		14
 	],
 	"./GetStarted.vue": [
 		"./resources/js/Pages/GetStarted.vue",
-		1,
-		0,
 		3,
-		2
+		0,
+		2,
+		14
+	],
+	"./Heading": [
+		"./resources/js/Pages/Heading.vue",
+		3,
+		0,
+		2,
+		6,
+		8
+	],
+	"./Heading.vue": [
+		"./resources/js/Pages/Heading.vue",
+		3,
+		0,
+		2,
+		6,
+		8
+	],
+	"./Input": [
+		"./resources/js/Pages/Input.vue",
+		3,
+		0,
+		2,
+		6,
+		19
+	],
+	"./Input.vue": [
+		"./resources/js/Pages/Input.vue",
+		3,
+		0,
+		2,
+		6,
+		19
+	],
+	"./Radio": [
+		"./resources/js/Pages/Radio.vue",
+		3,
+		0,
+		2,
+		6,
+		4
+	],
+	"./Radio.vue": [
+		"./resources/js/Pages/Radio.vue",
+		3,
+		0,
+		2,
+		6,
+		4
+	],
+	"./Search": [
+		"./resources/js/Pages/Search.vue",
+		3,
+		0,
+		2,
+		6,
+		20
+	],
+	"./Search.vue": [
+		"./resources/js/Pages/Search.vue",
+		3,
+		0,
+		2,
+		6,
+		20
+	],
+	"./Select": [
+		"./resources/js/Pages/Select.vue",
+		3,
+		0,
+		2,
+		6,
+		21
+	],
+	"./Select.vue": [
+		"./resources/js/Pages/Select.vue",
+		3,
+		0,
+		2,
+		6,
+		21
+	],
+	"./Spinner": [
+		"./resources/js/Pages/Spinner.vue",
+		3,
+		0,
+		2,
+		6,
+		1
+	],
+	"./Spinner.vue": [
+		"./resources/js/Pages/Spinner.vue",
+		3,
+		0,
+		2,
+		6,
+		1
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
-		1,
 		3,
-		13
+		2,
+		23
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
-		1,
 		3,
-		13
+		2,
+		23
 	]
 };
 function webpackAsyncContext(req) {

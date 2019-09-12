@@ -4,7 +4,7 @@
 			v-if="label"
 			class="form-label block mb-1 font-semibold text-gray-700"
 			:for="id"
-		>{{ label }}:</label>
+		>{{ label }}</label>
 		<div class="relative">
 			<input
 				:id="id"
@@ -19,7 +19,7 @@
 				@blur="$emit('blur', $event)"
 				@keyup="$emit('keyup', $event)"
 			/>
-			<div v-if="errors.length" class="text-red-600 mt-2 text-sm">{{ errors[0] }}</div>
+			<div v-if="errors.length" class="text-red-600 mt-1 text-sm">{{ errors[0] }}</div>
 
 			<svg
 				class="absolute text-red-600 fill-current"

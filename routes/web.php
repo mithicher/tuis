@@ -36,6 +36,35 @@ Route::get('/button', function () {
     return Inertia::render('Button');
 });
 
+Route::get('/card', function () {
+    return Inertia::render('Card');
+});
+
+Route::get('/heading', function () {
+    return Inertia::render('Heading');
+});
+
+Route::get('/input', function () {
+    return Inertia::render('Input');
+});
+
+
+Route::get('/radio', function () {
+    return Inertia::render('Radio');
+});
+
+Route::get('/select', function () {
+    return Inertia::render('Select');
+});
+
+Route::get('/search', function () {
+    return Inertia::render('Search');
+});
+
+Route::get('/spinner', function () {
+    return Inertia::render('Spinner');
+});
+
 
 // UI Examples
 

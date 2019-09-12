@@ -96,8 +96,9 @@
 						>Button</inertia-link>
 
 						<inertia-link
+							:class="isUrl('card') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/card"
 						>Card</inertia-link>
 
 						<inertia-link
@@ -116,8 +117,9 @@
 						>Empty State</inertia-link>
 
 						<inertia-link
+							:class="isUrl('heading') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/heading"
 						>Heading</inertia-link>
 
 						<inertia-link
@@ -126,28 +128,33 @@
 						>Icon</inertia-link>
 
 						<inertia-link
+							:class="isUrl('input') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/input"
 						>Input</inertia-link>
 
 						<inertia-link
+							:class="isUrl('radio') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/radio"
 						>Radio</inertia-link>
 
 						<inertia-link
+							:class="isUrl('select') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/select"
 						>Select</inertia-link>
 
 						<inertia-link
+							:class="isUrl('search') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/search"
 						>Search</inertia-link>
 
 						<inertia-link
+							:class="isUrl('spinner') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/spinner"
 						>Spinner</inertia-link>
 
 						<inertia-link
