@@ -39,35 +39,13 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
 
 
 
 
 
 var code = "@keyframes spinner {\n  0% {\n    transform: rotate(0deg);\n  }\n  100% {\n    transform: rotate(360deg);\n  }\n}\n\n.spinner {\n  position: relative;\n  overflow: hidden;\n}\n\n.spinner:before {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  background-color: inherit;\n  width: 100%;\n  height: 100%;\n  display: block;\n  z-index: 1;\n  top: 0;\n  left: 0;\n  opacity: 0.95;\n}\n\n.spinner:after {\n  content: \"\";\n  box-sizing: border-box;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  width: 20px;\n  height: 20px;\n  margin-top: -10px;\n  margin-left: -10px;\n  border-radius: 50%;\n  border: 2px solid rgba(0, 0, 0, 0.1);\n  border-left-color: inherit;\n  animation: spinner 0.65s linear infinite;\n  z-index: 2;\n}\n\n.spinner-md:after {\n  border-width: 3px;\n  width: 32px !important;\n  height: 32px !important;\n}\n\n.spinner-blue {\n  border-left-color: #3490DC !important;\n}\n.spinner-red {\n\tborder-left-color: #e3342f !important;\n}";
+var code2 = "<div class=\"spinner spinner-md spinner-blue w-16 h-16 block\"></div>";
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
     Layout: _Shared_Layout__WEBPACK_IMPORTED_MODULE_0__["default"],
@@ -79,6 +57,7 @@ var code = "@keyframes spinner {\n  0% {\n    transform: rotate(0deg);\n  }\n  1
   data: function data() {
     return {
       code: code,
+      code2: code2,
       datas: [{
         name: "label",
         type: "String",
@@ -211,75 +190,17 @@ var render = function() {
         _vm._v(" "),
         _c(
           "code-block",
-          { staticClass: "mb-10", attrs: { code: _vm.code, language: "css" } },
+          {
+            staticClass: "mb-10",
+            attrs: { code: _vm.code2, language: "html" }
+          },
           [_vm._v("Template Code")]
         ),
         _vm._v(" "),
         _c(
-          "h1",
-          { staticClass: "text-2xl font-bold mb-4 text-gray-800 mt-10" },
-          [_vm._v("Props")]
-        ),
-        _vm._v(" "),
-        _c(
-          "basic-table",
-          { attrs: { headings: ["Name", "Type", "Default", "Description"] } },
-          _vm._l(_vm.datas, function(data, dataIndex) {
-            return _c(
-              "tr",
-              {
-                key: dataIndex,
-                staticClass:
-                  "hover:bg-grey-lightest focus-within:bg-grey-lightest"
-              },
-              [
-                _c("td", { staticClass: "border-t" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-                    },
-                    [_vm._v(_vm._s(data.name))]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("td", { staticClass: "border-t" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-                    },
-                    [_vm._v(_vm._s(data.type))]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("td", { staticClass: "border-t" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-                    },
-                    [_vm._v(_vm._s(data.default))]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("td", { staticClass: "border-t" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-                    },
-                    [_vm._v(_vm._s(data.description))]
-                  )
-                ])
-              ]
-            )
-          }),
-          0
+          "code-block",
+          { staticClass: "mb-10", attrs: { code: _vm.code, language: "css" } },
+          [_vm._v("CSS Code")]
         )
       ],
       1

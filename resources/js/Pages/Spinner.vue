@@ -17,31 +17,8 @@
 				</template>
 			</box>
 
-			<code-block :code="code" language="css" class="mb-10">Template Code</code-block>
-
-			<h1 class="text-2xl font-bold mb-4 text-gray-800 mt-10">Props</h1>
-			<basic-table :headings="['Name', 'Type', 'Default', 'Description']">
-				<tr
-					v-for="(data, dataIndex) in datas"
-					:key="dataIndex"
-					class="hover:bg-grey-lightest focus-within:bg-grey-lightest"
-				>
-					<td class="border-t">
-						<span class="text-gray-700 px-6 py-4 flex items-center focus:text-indigo">{{ data.name }}</span>
-					</td>
-					<td class="border-t">
-						<span class="text-gray-700 px-6 py-4 flex items-center focus:text-indigo">{{ data.type }}</span>
-					</td>
-					<td class="border-t">
-						<span class="text-gray-700 px-6 py-4 flex items-center focus:text-indigo">{{ data.default }}</span>
-					</td>
-					<td class="border-t">
-						<span
-							class="text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-						>{{ data.description }}</span>
-					</td>
-				</tr>
-			</basic-table>
+			<code-block :code="code2" language="html" class="mb-10">Template Code</code-block>
+			<code-block :code="code" language="css" class="mb-10">CSS Code</code-block>
 		</div>
 	</layout>
 </template>
@@ -111,6 +88,8 @@ const code = `@keyframes spinner {
 	border-left-color: #e3342f !important;
 }`;
 
+const code2 = `<div class="spinner spinner-md spinner-blue w-16 h-16 block"></div>`;
+
 export default {
 	components: {
 		Layout,
@@ -123,6 +102,7 @@ export default {
 	data() {
 		return {
 			code: code,
+			code2: code2,
 
 			datas: [
 				{
