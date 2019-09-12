@@ -40,6 +40,10 @@ Route::get('/card', function () {
     return Inertia::render('Card');
 });
 
+Route::get('/dropdown', function () {
+    return Inertia::render('Dropdown');
+});
+
 Route::get('/heading', function () {
     return Inertia::render('Heading');
 });
@@ -47,7 +51,6 @@ Route::get('/heading', function () {
 Route::get('/input', function () {
     return Inertia::render('Input');
 });
-
 
 Route::get('/radio', function () {
     return Inertia::render('Radio');
@@ -63,6 +66,10 @@ Route::get('/search', function () {
 
 Route::get('/spinner', function () {
     return Inertia::render('Spinner');
+});
+
+Route::get('/table', function () {
+    return Inertia::render('Table');
 });
 
 

@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"9a61b31ee6b4a0cdd1f0","2":"68588f6ce1cc6f605752","3":"0517bb7927b26df9f196","4":"e654bf68434cb7ce048b","6":"f7ea3d110e2d0f911266","8":"ddb273bfe559b9b99ecf","14":"05e7e458885d51e70025","15":"3aadecb1859f1885389f","16":"b96e21e732c87c77fd6a","17":"1da3ff831443ca1796b1","18":"a85c04f81d2a86583c11","19":"ee5c05963352f44af301","20":"880ba857dcdc0da8aaf3","21":"da0d5d99e2d34e574ec0","22":"34de42df270fda1655f0","23":"2c3b533770540bf8f8c8","24":"549c494f64d4de1ccb5f"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"9a61b31ee6b4a0cdd1f0","2":"236227706a97062729dd","3":"0517bb7927b26df9f196","4":"e654bf68434cb7ce048b","6":"ca44a75b4d54bc1cb601","7":"fd0e05e9a2d07bd9fbd3","8":"ddb273bfe559b9b99ecf","9":"c61ad51b4230b36c6c5e","14":"05e7e458885d51e70025","15":"3aadecb1859f1885389f","16":"b96e21e732c87c77fd6a","17":"1da3ff831443ca1796b1","18":"a85c04f81d2a86583c11","19":"ee5c05963352f44af301","20":"880ba857dcdc0da8aaf3","21":"da0d5d99e2d34e574ec0","22":"34de42df270fda1655f0","23":"2c3b533770540bf8f8c8","24":"549c494f64d4de1ccb5f"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11508,6 +11508,22 @@ var map = {
 		2,
 		24
 	],
+	"./Dropdown": [
+		"./resources/js/Pages/Dropdown.vue",
+		3,
+		0,
+		2,
+		6,
+		7
+	],
+	"./Dropdown.vue": [
+		"./resources/js/Pages/Dropdown.vue",
+		3,
+		0,
+		2,
+		6,
+		7
+	],
 	"./Examples/Navbar": [
 		"./resources/js/Pages/Examples/Navbar.vue",
 		3,
@@ -11633,6 +11649,22 @@ var map = {
 		2,
 		6,
 		1
+	],
+	"./Table": [
+		"./resources/js/Pages/Table.vue",
+		3,
+		0,
+		2,
+		6,
+		9
+	],
+	"./Table.vue": [
+		"./resources/js/Pages/Table.vue",
+		3,
+		0,
+		2,
+		6,
+		9
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",

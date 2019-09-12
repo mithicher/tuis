@@ -1,6 +1,6 @@
 <template>
-	<div class="bg-white shadow rounded-lg border overflow-hidden">
-		<div class="flex items-center justify-between px-4 py-2 bg-gray-100">
+	<div class="bg-white shadow rounded-lg border">
+		<div class="flex items-center justify-between px-4 py-2 bg-gray-100 overflow-hidden rounded-t-lg">
 			<h2 class="text-sm text-gray-600 font-semibold uppercase tracking-wide">
 				<slot name="title"></slot>
 			</h2>

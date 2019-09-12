@@ -107,8 +107,9 @@
 						>Checkbox</inertia-link>
 
 						<inertia-link
+							:class="isUrl('dropdown') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/dropdown"
 						>Dropdown</inertia-link>
 
 						<inertia-link
@@ -163,8 +164,9 @@
 						>Switch</inertia-link>
 
 						<inertia-link
+							:class="isUrl('table') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/table"
 						>Table</inertia-link>
 
 						<inertia-link
