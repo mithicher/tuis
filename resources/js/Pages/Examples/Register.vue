@@ -3,7 +3,7 @@
 		<div class="h-screen bg-gray-100 flex items-center">
 			<card class="max-w-4xl mx-auto" :is-padding="false">
 				<div class="flex">
-					<div class="w-1/2 p-10">
+					<div class="w-full md:w-1/2 p-10">
 						<heading size="heading" class="mb-5">Get Started</heading>
 						<text-input label="Name" class="mb-4"></text-input>
 						<text-input label="Email" type="email" class="mb-4"></text-input>
@@ -19,7 +19,7 @@
 							>Sign in</a>
 						</heading>
 					</div>
-					<div class="flex-1 bg-gray-200">
+					<div class="hidden md:block flex-1 bg-gray-200">
 						<img src="/bg.jpg" alt="bg" class="object-cover h-full w-full" />
 					</div>
 				</div>

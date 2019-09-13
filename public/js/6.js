@@ -550,7 +550,8 @@ var render = function() {
     _c(
       "div",
       {
-        staticClass: "md:flex items-center justify-between bg-white shadow px-4"
+        staticClass:
+          "md:flex items-center justify-between bg-white shadow-base px-4"
       },
       [
         _c(

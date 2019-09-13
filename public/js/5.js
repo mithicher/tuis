@@ -464,7 +464,7 @@ var render = function() {
             _c("div", { staticClass: "flex" }, [
               _c(
                 "div",
-                { staticClass: "w-1/2 p-10" },
+                { staticClass: "w-full md:w-1/2 p-10" },
                 [
                   _c(
                     "heading",
@@ -516,7 +516,7 @@ var render = function() {
                 1
               ),
               _vm._v(" "),
-              _c("div", { staticClass: "flex-1 bg-gray-200" }, [
+              _c("div", { staticClass: "hidden md:block flex-1 bg-gray-200" }, [
                 _c("img", {
                   staticClass: "object-cover h-full w-full",
                   attrs: { src: "/bg.jpg", alt: "bg" }

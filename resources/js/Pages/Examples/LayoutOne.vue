@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="md:flex items-center justify-between bg-white shadow px-4">
+		<div class="md:flex items-center justify-between bg-white shadow-base px-4">
 			<div class="flex justify-between md:flex-none items-center">
 				<a href="#" class="py-3">
 					<div

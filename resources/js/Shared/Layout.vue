@@ -18,7 +18,9 @@
 							<path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
 						</svg>
 					</div>
-					<a href="/" class="inline-flex font-bold text-2xl text-gray-800">September-UI</a>
+					<a href="/" class="inline-flex">
+						<img src="/september_ui_logo.png" alt="logo" width="48" />
+					</a>
 				</div>
 				<div class="text-center hidden sm:flex">
 					<inertia-link
