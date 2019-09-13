@@ -246,6 +246,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -823,7 +827,12 @@ var render = function() {
             )
           : _vm._e(),
         _vm._v(" "),
-        _c("div", { staticClass: "px-6 py-10 flex-1" }, [_vm._t("default")], 2)
+        _c(
+          "div",
+          { staticClass: "px-6 py-10 flex-1" },
+          [_vm._t("default"), _vm._v(" "), _vm._m(2)],
+          2
+        )
       ])
     ])
   ])
@@ -850,6 +859,20 @@ var staticRenderFns = [
         [_vm._v("version v1.0.0")]
       )
     ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c(
+      "div",
+      { staticClass: "mt-16 border-t py-6 text-center md:max-w-6xl mx-auto" },
+      [
+        _c("p", { staticClass: "text-gray-500 text-sm" }, [
+          _vm._v("Made in Guwahati. Copyright © 2019")
+        ])
+      ]
+    )
   }
 ]
 render._withStripped = true

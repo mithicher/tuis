@@ -182,7 +182,7 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("layout", [
-    _c("div", { staticClass: "container mx-auto py-10" }, [
+    _c("div", { staticClass: "container mx-auto py-10 md:py-20" }, [
       _c("div", { staticClass: "md:flex max-w-6xl mx-auto items-center" }, [
         _c(
           "div",
@@ -192,9 +192,9 @@ var render = function() {
               "heading",
               {
                 staticClass: "mb-5 hidden md:block",
-                attrs: { size: "display" }
+                attrs: { size: "display2" }
               },
-              [_vm._v("September UI Components")]
+              [_vm._v("September UI")]
             ),
             _vm._v(" "),
             _c(

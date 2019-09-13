@@ -1,9 +1,9 @@
 <template>
 	<layout>
-		<div class="container mx-auto py-10">
+		<div class="container mx-auto py-10 md:py-20">
 			<div class="md:flex max-w-6xl mx-auto items-center">
 				<div class="md:w-1/2">
-					<heading size="display" class="mb-5 hidden md:block">September UI Components</heading>
+					<heading size="display2" class="mb-5 hidden md:block">September UI</heading>
 					<heading size="heading2" class="mb-5 md:hidden">September UI Components</heading>
 
 					<heading

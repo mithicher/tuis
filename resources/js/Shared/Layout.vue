@@ -229,6 +229,10 @@
 
 				<div class="px-6 py-10 flex-1">
 					<slot />
+
+					<div class="mt-16 border-t py-6 text-center md:max-w-6xl mx-auto">
+						<p class="text-gray-500 text-sm">Made in Guwahati. Copyright &copy; 2019</p>
+					</div>
 				</div>
 			</div>
 		</article>
