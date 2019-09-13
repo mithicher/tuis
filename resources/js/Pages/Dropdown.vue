@@ -6,60 +6,61 @@
 			<box class="mb-10">
 				<template slot="title">Basic Dropdown</template>
 				<template slot="body">
-					<div class="h-64">
-						<dropdown class="w-40">
-							<template slot="trigger">
-								<span class="bg-blue-400 px-4 py-2 rounded-lg text-white outline-none">Dropdown Menu</span>
-							</template>
+					<div class="h-24 mt-10">
+						<div class="flex items-center justify-between bg-white shadow rounded-lg px-4">
+							<a href="#" class="py-3">
+								<div
+									class="w-8 h-8 rounded-full bg-blue-500 inline-flex items-center justify-center text-white font-bold"
+								>S</div>
+							</a>
 
-							<template slot="dropdown">
-								<div class="shadow rounded-lg bg-white w-40 py-1 mt-4">
-									<a href="#" class="font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400">Home</a>
-									<a
-										href="#"
-										class="font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400"
-									>Profile</a>
-									<a
-										href="#"
-										class="font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400"
-									>Settings</a>
-									<a
-										href="#"
-										class="font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400"
-									>Logout</a>
-								</div>
-							</template>
-						</dropdown>
+							<div>
+								<dropdown>
+									<template #trigger>
+										<span
+											class="outline-none block inline-flex items-center justify-center h-8 w-8 overflow-hidden rounded-full border-2 border-gray-600 xl:border-gray-300"
+										>
+											<img
+												src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=256&amp;q=80"
+												alt
+												class="h-full w-full object-cover"
+											/>
+										</span>
+									</template>
+									<template #dropdown>
+										<div class="mt-2 bg-white xl:border rounded-lg w-48 py-1 shadow-xl">
+											<a
+												class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
+												href="#"
+											>Notifications</a>
+											<a
+												class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
+												href="#"
+											>Profile & Account</a>
+											<a
+												class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
+												href="#"
+											>Help & Feedback</a>
+											<div class="border-t my-1"></div>
+											<a
+												class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
+												href="#"
+											>Admin Panel</a>
+											<a
+												class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
+												href="#"
+											>Logout</a>
+										</div>
+									</template>
+								</dropdown>
+							</div>
+						</div>
 					</div>
 				</template>
 			</box>
 
 			<code-block :code="code" language="html" class="mb-10">Template Code</code-block>
 			<code-block :code="jsCode" language="js" class="mb-10">JS Code</code-block>
-
-			<h1 class="text-2xl font-bold mb-4 text-gray-800 mt-10">Props</h1>
-			<basic-table :headings="['Name', 'Type', 'Default', 'Description']">
-				<tr
-					v-for="(data, dataIndex) in datas"
-					:key="dataIndex"
-					class="hover:bg-grey-lightest focus-within:bg-grey-lightest"
-				>
-					<td class="border-t">
-						<span class="text-gray-700 px-6 py-4 flex items-center focus:text-indigo">{{ data.name }}</span>
-					</td>
-					<td class="border-t">
-						<span class="text-gray-700 px-6 py-4 flex items-center focus:text-indigo">{{ data.type }}</span>
-					</td>
-					<td class="border-t">
-						<span class="text-gray-700 px-6 py-4 flex items-center focus:text-indigo">{{ data.default }}</span>
-					</td>
-					<td class="border-t">
-						<span
-							class="text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-						>{{ data.description }}</span>
-					</td>
-				</tr>
-			</basic-table>
 		</div>
 	</layout>
 </template>
@@ -72,25 +73,41 @@ import BasicTable from "@/Shared/tuis/BasicTable";
 import Heading from "@/Shared/tuis/Heading";
 import Dropdown from "@/Shared/tuis/Dropdown";
 
-const code = `<dropdown class="w-40">
-	<template slot="trigger">
-		<span class="bg-blue-400 px-4 py-2 rounded-lg text-white outline-none">Dropdown Menu</span>
+const code = `<dropdown>
+	<template #trigger>
+		<span
+			class="block inline-flex items-center justify-center h-8 w-8 
+			overflow-hidden rounded-full border-2 border-gray-600 xl:border-gray-300"
+		>
+			<img
+				src="/avatar.png"
+				alt
+				class="h-full w-full object-cover"
+			/>
+		</span>
 	</template>
-
-	<template slot="dropdown">
-		<div class="shadow rounded-lg bg-white w-40 py-1 mt-4">
-			<a href="#" class="font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400">Home</a>
+	<template #dropdown>
+		<div class="mt-2 bg-white xl:border rounded-lg w-48 py-1 shadow-xl">
 			<a
+				class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
 				href="#"
-				class="font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400"
-			>Profile</a>
+			>Notifications</a>
 			<a
+				class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
 				href="#"
-				class="font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400"
-			>Settings</a>
+			>Profile & Account</a>
 			<a
+				class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
 				href="#"
-				class="font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400"
+			>Help & Feedback</a>
+			<div class="border-t my-1"></div>
+			<a
+				class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
+				href="#"
+			>Admin Panel</a>
+			<a
+				class="block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400"
+				href="#"
 			>Logout</a>
 		</div>
 	</template>

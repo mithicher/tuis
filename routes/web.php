@@ -80,6 +80,10 @@ Route::get('/table', function () {
     return Inertia::render('Table');
 });
 
+Route::get('/toast', function () {
+    return Inertia::render('Toast');
+});
+
 
 // UI Examples
 

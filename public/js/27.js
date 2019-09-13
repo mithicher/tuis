@@ -81,13 +81,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 
 
 
 
 
 
-var code = "<dropdown class=\"w-40\">\n\t<template slot=\"trigger\">\n\t\t<span class=\"bg-blue-400 px-4 py-2 rounded-lg text-white outline-none\">Dropdown Menu</span>\n\t</template>\n\n\t<template slot=\"dropdown\">\n\t\t<div class=\"shadow rounded-lg bg-white w-40 py-1 mt-4\">\n\t\t\t<a href=\"#\" class=\"font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400\">Home</a>\n\t\t\t<a\n\t\t\t\thref=\"#\"\n\t\t\t\tclass=\"font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400\"\n\t\t\t>Profile</a>\n\t\t\t<a\n\t\t\t\thref=\"#\"\n\t\t\t\tclass=\"font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400\"\n\t\t\t>Settings</a>\n\t\t\t<a\n\t\t\t\thref=\"#\"\n\t\t\t\tclass=\"font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400\"\n\t\t\t>Logout</a>\n\t\t</div>\n\t</template>\n</dropdown>";
+var code = "<dropdown>\n\t<template #trigger>\n\t\t<span\n\t\t\tclass=\"block inline-flex items-center justify-center h-8 w-8 \n\t\t\toverflow-hidden rounded-full border-2 border-gray-600 xl:border-gray-300\"\n\t\t>\n\t\t\t<img\n\t\t\t\tsrc=\"/avatar.png\"\n\t\t\t\talt\n\t\t\t\tclass=\"h-full w-full object-cover\"\n\t\t\t/>\n\t\t</span>\n\t</template>\n\t<template #dropdown>\n\t\t<div class=\"mt-2 bg-white xl:border rounded-lg w-48 py-1 shadow-xl\">\n\t\t\t<a\n\t\t\t\tclass=\"block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400\"\n\t\t\t\thref=\"#\"\n\t\t\t>Notifications</a>\n\t\t\t<a\n\t\t\t\tclass=\"block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400\"\n\t\t\t\thref=\"#\"\n\t\t\t>Profile & Account</a>\n\t\t\t<a\n\t\t\t\tclass=\"block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400\"\n\t\t\t\thref=\"#\"\n\t\t\t>Help & Feedback</a>\n\t\t\t<div class=\"border-t my-1\"></div>\n\t\t\t<a\n\t\t\t\tclass=\"block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400\"\n\t\t\t\thref=\"#\"\n\t\t\t>Admin Panel</a>\n\t\t\t<a\n\t\t\t\tclass=\"block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400\"\n\t\t\t\thref=\"#\"\n\t\t\t>Logout</a>\n\t\t</div>\n\t</template>\n</dropdown>";
 var jsCode = "import Dropdown from @/Shared/tuis/Dropdown\";\n\nexport default { \n\tcomponents: {\n\t\tDropdown\n\t}\n}";
 /* harmony default export */ __webpack_exports__["default"] = ({
   components: {
@@ -262,81 +263,134 @@ var render = function() {
             _c("template", { slot: "title" }, [_vm._v("Basic Dropdown")]),
             _vm._v(" "),
             _c("template", { slot: "body" }, [
-              _c(
-                "div",
-                { staticClass: "h-64" },
-                [
-                  _c(
-                    "dropdown",
-                    { staticClass: "w-40" },
-                    [
-                      _c("template", { slot: "trigger" }, [
-                        _c(
-                          "span",
-                          {
-                            staticClass:
-                              "bg-blue-400 px-4 py-2 rounded-lg text-white outline-none"
-                          },
-                          [_vm._v("Dropdown Menu")]
-                        )
-                      ]),
-                      _vm._v(" "),
-                      _c("template", { slot: "dropdown" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "shadow rounded-lg bg-white w-40 py-1 mt-4"
-                          },
-                          [
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400",
-                                attrs: { href: "#" }
+              _c("div", { staticClass: "h-24 mt-10" }, [
+                _c(
+                  "div",
+                  {
+                    staticClass:
+                      "flex items-center justify-between bg-white shadow rounded-lg px-4"
+                  },
+                  [
+                    _c("a", { staticClass: "py-3", attrs: { href: "#" } }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass:
+                            "w-8 h-8 rounded-full bg-blue-500 inline-flex items-center justify-center text-white font-bold"
+                        },
+                        [_vm._v("S")]
+                      )
+                    ]),
+                    _vm._v(" "),
+                    _c(
+                      "div",
+                      [
+                        _c("dropdown", {
+                          scopedSlots: _vm._u([
+                            {
+                              key: "trigger",
+                              fn: function() {
+                                return [
+                                  _c(
+                                    "span",
+                                    {
+                                      staticClass:
+                                        "outline-none block inline-flex items-center justify-center h-8 w-8 overflow-hidden rounded-full border-2 border-gray-600 xl:border-gray-300"
+                                    },
+                                    [
+                                      _c("img", {
+                                        staticClass:
+                                          "h-full w-full object-cover",
+                                        attrs: {
+                                          src:
+                                            "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=256&q=80",
+                                          alt: ""
+                                        }
+                                      })
+                                    ]
+                                  )
+                                ]
                               },
-                              [_vm._v("Home")]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400",
-                                attrs: { href: "#" }
+                              proxy: true
+                            },
+                            {
+                              key: "dropdown",
+                              fn: function() {
+                                return [
+                                  _c(
+                                    "div",
+                                    {
+                                      staticClass:
+                                        "mt-2 bg-white xl:border rounded-lg w-48 py-1 shadow-xl"
+                                    },
+                                    [
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Notifications")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Profile & Account")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Help & Feedback")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c("div", {
+                                        staticClass: "border-t my-1"
+                                      }),
+                                      _vm._v(" "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Admin Panel")]
+                                      ),
+                                      _vm._v(" "),
+                                      _c(
+                                        "a",
+                                        {
+                                          staticClass:
+                                            "block px-4 py-2 text-gray-600 hover:bg-gray-100 hover:text-blue-400",
+                                          attrs: { href: "#" }
+                                        },
+                                        [_vm._v("Logout")]
+                                      )
+                                    ]
+                                  )
+                                ]
                               },
-                              [_vm._v("Profile")]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400",
-                                attrs: { href: "#" }
-                              },
-                              [_vm._v("Settings")]
-                            ),
-                            _vm._v(" "),
-                            _c(
-                              "a",
-                              {
-                                staticClass:
-                                  "font-medium px-4 py-2 block hover:bg-gray-100 hover:text-blue-400",
-                                attrs: { href: "#" }
-                              },
-                              [_vm._v("Logout")]
-                            )
-                          ]
-                        )
-                      ])
-                    ],
-                    2
-                  )
-                ],
-                1
-              )
+                              proxy: true
+                            }
+                          ])
+                        })
+                      ],
+                      1
+                    )
+                  ]
+                )
+              ])
             ])
           ],
           2
@@ -352,73 +406,6 @@ var render = function() {
           "code-block",
           { staticClass: "mb-10", attrs: { code: _vm.jsCode, language: "js" } },
           [_vm._v("JS Code")]
-        ),
-        _vm._v(" "),
-        _c(
-          "h1",
-          { staticClass: "text-2xl font-bold mb-4 text-gray-800 mt-10" },
-          [_vm._v("Props")]
-        ),
-        _vm._v(" "),
-        _c(
-          "basic-table",
-          { attrs: { headings: ["Name", "Type", "Default", "Description"] } },
-          _vm._l(_vm.datas, function(data, dataIndex) {
-            return _c(
-              "tr",
-              {
-                key: dataIndex,
-                staticClass:
-                  "hover:bg-grey-lightest focus-within:bg-grey-lightest"
-              },
-              [
-                _c("td", { staticClass: "border-t" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-                    },
-                    [_vm._v(_vm._s(data.name))]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("td", { staticClass: "border-t" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-                    },
-                    [_vm._v(_vm._s(data.type))]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("td", { staticClass: "border-t" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-                    },
-                    [_vm._v(_vm._s(data.default))]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("td", { staticClass: "border-t" }, [
-                  _c(
-                    "span",
-                    {
-                      staticClass:
-                        "text-gray-700 px-6 py-4 flex items-center focus:text-indigo"
-                    },
-                    [_vm._v(_vm._s(data.description))]
-                  )
-                ])
-              ]
-            )
-          }),
-          0
         )
       ],
       1

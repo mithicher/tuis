@@ -224,7 +224,7 @@ __webpack_require__.r(__webpack_exports__);
     btnClass: function btnClass() {
       return {
         "base-spinner": this.loading == true,
-        "base-button inline-flex align-items-center justify-center rounded-lg font-semibold": true,
+        "base-button inline-flex align-items-center justify-center rounded-lg font-semibold outline-none": true,
         "px-6 py-3": this.size == "normal",
         "px-3 py-1 h-10": this.size == "small",
         "border border-blue-600 bg-blue-600 hover:bg-blue-700 text-white": this.variant == "primary" && this.variantType == "",

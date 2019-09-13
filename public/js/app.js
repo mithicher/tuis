@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","2":"3535f1be352a6ae380cf","3":"0517bb7927b26df9f196","4":"910139b916209f485060","5":"4ef7abce5bcb6d578651","6":"4ccc28dc8d56af915b08","7":"9dcf114e279765f2e915","21":"57d3f7bd73ef40d18e0c","22":"9157c303dfa0db671687","23":"877df91e1d136d94044d","24":"1ad3610b666a0ccbbafc","25":"df6f42520dd2843ce204","26":"21b908ab2c8b9b85bd9e","27":"3e7f8fbca2fa68d4ff89","28":"787442ba72055d744940","29":"a2aeb40ac479b8e53e43","30":"71e04d71824143037cfb","31":"e1ac0f41a63ac9155537","32":"72fab8dfa084e7281404","33":"746ec5f69776705cfcbc","34":"2c1c323be457a4fcbdc2","35":"d2a0727cee9484235e65","36":"774985b14497d4671c35","37":"124fe48feed8ce8de1f2","38":"0189bcaad710c0e6712c"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"9715c0ba9859c7005cc9","2":"01affd4eadca7959437f","3":"0517bb7927b26df9f196","4":"1d6446d48e00e39230ba","5":"cf439a2d200bb2919e18","7":"329e9d856ebd892e7872","8":"a86293ccd76fef9f3a3d","10":"d2d6b441cb5d727d70f3","14":"a5bfd5d58314ebf5d548","15":"edc2a6031b883060eeb4","16":"7b8234b52b1db6d98e05","22":"3f7cdc5e481dddc77842","25":"e56de9026a9f71d45145","26":"f4b724f24e55d2255d7e","27":"45c29780ca35dae8b96a","28":"787442ba72055d744940","29":"a2aeb40ac479b8e53e43","30":"71e04d71824143037cfb","31":"e1ac0f41a63ac9155537","32":"72fab8dfa084e7281404","33":"746ec5f69776705cfcbc","34":"2c1c323be457a4fcbdc2","35":"3b986d7965d9a1fca9a3","36":"774985b14497d4671c35","37":"124fe48feed8ce8de1f2","38":"0189bcaad710c0e6712c"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -2944,6 +2944,20 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (this && this.clearImmediate);
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/vue-snack/dist/vue-snack.min.js":
+/*!******************************************************!*\
+  !*** ./node_modules/vue-snack/dist/vue-snack.min.js ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(global) {!function(t,n){ true?module.exports=n():undefined}(this,function(){"use strict";var t={render:function(){var t=this,n=t.$createElement,e=t._self._c||n;return e("transition",{attrs:{name:"snack"}},[t.active?e("div",{staticClass:"snackbar",class:t.config.position,style:t.styles},[e("div",{staticClass:"snackbar__text"},[t._v(t._s(t.text))]),t._v(" "),t.button?[e("div",{staticClass:"snackbar__action",on:{click:function(n){return n.preventDefault(),t.action(n)}}},[t._v(t._s(t.button))])]:t._e(),t._v(" "),t.config.close?[e("div",{staticClass:"times",on:{click:function(n){t.$emit("close")}}},[e("svg",{attrs:{xmlns:"http://www.w3.org/2000/svg",width:"24",height:"24",viewBox:"0 0 24 24"}},[e("path",{attrs:{fill:"#E3E3E3",d:"M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"}}),t._v(" "),e("path",{attrs:{d:"M0 0h24v24H0z",fill:"none"}})])])]:t._e()],2):t._e()])},staticRenderFns:[],name:"Snackbar",props:{config:Object},data:function(t){return{active:!1,text:"",button:"",theme:"default",action:null}},computed:{styles:function(){return"--primary: "+this.config[this.theme].primary}}},n={default:{primary:"#2C89F1"},success:{primary:"#00DEB2"},danger:{primary:"#FF0057"},background:"#353535",text:"#E3E3E3",time:7500,position:"bottom",close:!1},e=void 0,i=null,a=null,o=null,s=null,c={},r={danger:"danger",show:"default",success:"success"},u=function(){i.active=!1,clearTimeout(a)},d=async function(t,e){if(s=t,!i.active||!o){var r;i.active&&(u(),o=!0,await(r=400,new Promise(function(t,n){return setTimeout(function(n){return t()},r)})),o=!1),"string"==typeof s&&(s={text:s});var d=s.action;s.action=async function(){if(!d)return u();d(),u()},Object.assign(c.config,n[e]),Object.assign(i,Object.assign({},s,{theme:e})),i.active=!0,a=setTimeout(u,n.time)}},l={install:function(a){var o=arguments.length>1&&void 0!==arguments[1]?arguments[1]:{};e=a.extend(t),document.addEventListener("DOMContentLoaded",function(t){var a=document.createElement("div");a.id="snackbar-"+Date.now(),document.body.appendChild(a),c.config=n,(i=new e({propsData:c})).$on("close",function(t){return u()}),i.$mount("#"+a.id)}),Object.assign(n,o),a.prototype.$snack=function(t){var e={},i={};t.methods=t.methods||[],t.methods.forEach(function(t){e[t.name]=t.name,i[t.name]={primary:t.color||n.default.primary}}),Object.assign(n,i);var a={},o=Object.assign({},r,e),s=function(t){a[t]=function(n){return d(n,o[t])}};for(var c in o)s(c);return a}(o)}},f=null;return"undefined"!=typeof window?f=window.Vue:"undefined"!=typeof global&&(f=global.Vue),f&&f.use(l),l});
+//# sourceMappingURL=vue-snack.min.js.map
+
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
 
 /***/ }),
 
@@ -11436,23 +11450,23 @@ var map = {
 		"./resources/js/Pages/Alert.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
-		25
+		16
 	],
 	"./Alert.vue": [
 		"./resources/js/Pages/Alert.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
-		25
+		16
 	],
 	"./Avatar": [
 		"./resources/js/Pages/Avatar.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		32
 	],
@@ -11460,7 +11474,7 @@ var map = {
 		"./resources/js/Pages/Avatar.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		32
 	],
@@ -11468,23 +11482,25 @@ var map = {
 		"./resources/js/Pages/Badge.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
-		23
+		14,
+		10
 	],
 	"./Badge.vue": [
 		"./resources/js/Pages/Badge.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
-		23
+		14,
+		10
 	],
 	"./Button": [
 		"./resources/js/Pages/Button.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		26
 	],
@@ -11492,7 +11508,7 @@ var map = {
 		"./resources/js/Pages/Button.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		26
 	],
@@ -11500,7 +11516,7 @@ var map = {
 		"./resources/js/Pages/Card.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		33
 	],
@@ -11508,27 +11524,27 @@ var map = {
 		"./resources/js/Pages/Card.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		33
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
 		3,
-		2,
+		1,
 		37
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
 		3,
-		2,
+		1,
 		37
 	],
 	"./Dropdown": [
 		"./resources/js/Pages/Dropdown.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		27
 	],
@@ -11536,81 +11552,83 @@ var map = {
 		"./resources/js/Pages/Dropdown.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		27
 	],
 	"./Examples/LayoutOne": [
 		"./resources/js/Pages/Examples/LayoutOne.vue",
 		3,
-		2,
-		6
+		1,
+		14,
+		2
 	],
 	"./Examples/LayoutOne.vue": [
 		"./resources/js/Pages/Examples/LayoutOne.vue",
 		3,
-		2,
-		6
+		1,
+		14,
+		2
 	],
 	"./Examples/Login": [
 		"./resources/js/Pages/Examples/Login.vue",
 		3,
-		2,
+		1,
 		4
 	],
 	"./Examples/Login.vue": [
 		"./resources/js/Pages/Examples/Login.vue",
 		3,
-		2,
+		1,
 		4
 	],
 	"./Examples/Navbar": [
 		"./resources/js/Pages/Examples/Navbar.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
-		24
+		15
 	],
 	"./Examples/Navbar.vue": [
 		"./resources/js/Pages/Examples/Navbar.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
-		24
+		15
 	],
 	"./Examples/Register": [
 		"./resources/js/Pages/Examples/Register.vue",
 		3,
-		2,
+		1,
 		5
 	],
 	"./Examples/Register.vue": [
 		"./resources/js/Pages/Examples/Register.vue",
 		3,
-		2,
+		1,
 		5
 	],
 	"./GetStarted": [
 		"./resources/js/Pages/GetStarted.vue",
 		3,
 		0,
-		2,
+		1,
 		22
 	],
 	"./GetStarted.vue": [
 		"./resources/js/Pages/GetStarted.vue",
 		3,
 		0,
-		2,
+		1,
 		22
 	],
 	"./Heading": [
 		"./resources/js/Pages/Heading.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		38
 	],
@@ -11618,7 +11636,7 @@ var map = {
 		"./resources/js/Pages/Heading.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		38
 	],
@@ -11626,7 +11644,7 @@ var map = {
 		"./resources/js/Pages/Input.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		28
 	],
@@ -11634,7 +11652,7 @@ var map = {
 		"./resources/js/Pages/Input.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		28
 	],
@@ -11642,23 +11660,23 @@ var map = {
 		"./resources/js/Pages/Radio.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
-		21
+		25
 	],
 	"./Radio.vue": [
 		"./resources/js/Pages/Radio.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
-		21
+		25
 	],
 	"./Search": [
 		"./resources/js/Pages/Search.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		29
 	],
@@ -11666,7 +11684,7 @@ var map = {
 		"./resources/js/Pages/Search.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		29
 	],
@@ -11674,7 +11692,7 @@ var map = {
 		"./resources/js/Pages/Select.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		30
 	],
@@ -11682,7 +11700,7 @@ var map = {
 		"./resources/js/Pages/Select.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		30
 	],
@@ -11690,7 +11708,7 @@ var map = {
 		"./resources/js/Pages/Spinner.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		36
 	],
@@ -11698,7 +11716,7 @@ var map = {
 		"./resources/js/Pages/Spinner.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		36
 	],
@@ -11706,7 +11724,7 @@ var map = {
 		"./resources/js/Pages/Switch.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		31
 	],
@@ -11714,7 +11732,7 @@ var map = {
 		"./resources/js/Pages/Switch.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		31
 	],
@@ -11722,7 +11740,7 @@ var map = {
 		"./resources/js/Pages/Table.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		34
 	],
@@ -11730,20 +11748,36 @@ var map = {
 		"./resources/js/Pages/Table.vue",
 		3,
 		0,
-		2,
+		1,
 		7,
 		34
+	],
+	"./Toast": [
+		"./resources/js/Pages/Toast.vue",
+		3,
+		0,
+		1,
+		7,
+		8
+	],
+	"./Toast.vue": [
+		"./resources/js/Pages/Toast.vue",
+		3,
+		0,
+		1,
+		7,
+		8
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
 		3,
-		2,
+		1,
 		35
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
 		3,
-		2,
+		1,
 		35
 	]
 };
@@ -11781,9 +11815,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.runtime.esm.js");
 /* harmony import */ var _inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue */ "./node_modules/@inertiajs/inertia-vue/dist/index.js");
 /* harmony import */ var _inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var vue_snack__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-snack */ "./node_modules/vue-snack/dist/vue-snack.min.js");
+/* harmony import */ var vue_snack__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_snack__WEBPACK_IMPORTED_MODULE_2__);
+
 
 
 vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_1__["InertiaApp"]);
+vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vue_snack__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  close: true,
+  position: "bottom-left"
+});
 var app = document.getElementById("app");
 new vue__WEBPACK_IMPORTED_MODULE_0__["default"]({
   render: function render(h) {

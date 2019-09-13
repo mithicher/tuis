@@ -179,8 +179,9 @@
 						>Text Editor</inertia-link>
 
 						<inertia-link
+							:class="isUrl('toast') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/toast"
 						>Toast</inertia-link>
 
 						<inertia-link

@@ -1,10 +1,10 @@
 <template>
 	<div>
-		<table class="w-full whitespace-no-wrap bg-white shadow rounded-lg overflow-hidden">
+		<table class="w-full whitespace-no-wrap bg-white shadow rounded-lg">
 			<thead>
 				<tr class="text-left">
 					<th
-						class="px-6 py-2 text-gray-700 font-bold tracking-wide uppercase text-sm"
+						class="px-6 py-3 text-gray-500 font-bold tracking-wider uppercase text-xs"
 						v-for="(heading, headingIndex) in headings"
 						:key="headingIndex"
 					>{{ heading }}</th>

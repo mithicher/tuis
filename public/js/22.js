@@ -337,11 +337,11 @@ __webpack_require__.r(__webpack_exports__);
       return {
         "text-sm text-gray-600 leading-normal": this.size == "small",
         "text-base text-gray-600 leading-normal": this.size == "normal",
-        "text-2xl text-gray-800 font-bold leading-tight": this.size == "heading",
-        "text-4xl text-gray-800 font-bold leading-tight": this.size == "heading2",
+        "text-2xl text-gray-700 font-bold leading-tight": this.size == "heading",
+        "text-4xl text-gray-700 font-bold leading-tight": this.size == "heading2",
         "text-gray-500 text-xs font-bold tracking-wider uppercase": this.size == "small-caps",
-        "text-5xl text-gray-800 leading-none font-bold tracking-tight": this.size == "display",
-        "text-6xl text-gray-800 leading-none font-bold tracking-tight": this.size == "display2"
+        "text-5xl text-gray-700 leading-none font-bold tracking-tight": this.size == "display",
+        "text-6xl text-gray-700 leading-none font-bold tracking-tight": this.size == "display2"
       };
     }
   }
@@ -492,10 +492,7 @@ var render = function() {
   return _c("div", [
     _c(
       "table",
-      {
-        staticClass:
-          "w-full whitespace-no-wrap bg-white shadow rounded-lg overflow-hidden"
-      },
+      { staticClass: "w-full whitespace-no-wrap bg-white shadow rounded-lg" },
       [
         _c("thead", [
           _c(
@@ -507,7 +504,7 @@ var render = function() {
                 {
                   key: headingIndex,
                   staticClass:
-                    "px-6 py-2 text-gray-700 font-bold tracking-wide uppercase text-sm"
+                    "px-6 py-3 text-gray-500 font-bold tracking-wider uppercase text-xs"
                 },
                 [_vm._v(_vm._s(heading))]
               )
