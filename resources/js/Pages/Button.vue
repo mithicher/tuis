@@ -2,9 +2,6 @@
 	<layout>
 		<div class="mb-10 w-2/3 mx-auto">
 			<h1 class="text-3xl font-bold mb-4 text-gray-800">Buttons</h1>
-			<heading
-				class="mb-10"
-			>Button component is used to trigger an action or event, such as submitting a form, opening a Dialog, canceling an action, or performing a delete operation.</heading>
 
 			<box class="mb-10">
 				<template slot="title">Button</template>

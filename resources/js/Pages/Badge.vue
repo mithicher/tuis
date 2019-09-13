@@ -2,7 +2,6 @@
 	<layout>
 		<div class="mb-10 w-2/3 mx-auto">
 			<h1 class="text-3xl font-bold mb-4 text-gray-800">Badge</h1>
-			<heading class="mb-10">Badges are used to highlight an item's status for quick recognition.</heading>
 
 			<box class="mb-10">
 				<template slot="title">Example with Border</template>

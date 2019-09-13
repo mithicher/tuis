@@ -28,6 +28,10 @@ Route::get('/alert', function () {
     return Inertia::render('Alert');
 });
 
+Route::get('/avatar', function () {
+    return Inertia::render('Avatar');
+});
+
 Route::get('/badge', function () {
     return Inertia::render('Badge');
 });
@@ -66,6 +70,10 @@ Route::get('/search', function () {
 
 Route::get('/spinner', function () {
     return Inertia::render('Spinner');
+});
+
+Route::get('/switch', function () {
+    return Inertia::render('Switch');
 });
 
 Route::get('/table', function () {

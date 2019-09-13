@@ -12,13 +12,13 @@
 
 					<div class="mt-6 mb-6">
 						<a
-							href="#"
+							href="/alert"
 							class="inline-flex align-items-center justify-center rounded-lg font-semibold mr-2 bg-blue-600 hover:bg-blue-700 text-white px-6 py-3"
 						>Get Started</a>
 						<a
-							href="#"
-							class="inline-flex align-items-center justify-center rounded-lg font-semibold bg-gray-300 hover:bg-gray-400 text-gray-800 px-6 py-3"
-						>View Examples</a>
+							href="https://github.com/mithicher/tuis"
+							class="inline-flex align-items-center justify-center rounded-lg font-semibold bg-gray-300 hover:bg-gray-400 text-gray-800 px-8 py-3"
+						>Github</a>
 					</div>
 
 					<span class="text-gray-600">current version v1.0.0</span>

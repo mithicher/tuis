@@ -2,9 +2,6 @@
 	<layout>
 		<div class="mb-10 w-2/3 mx-auto">
 			<h1 class="text-3xl font-bold mb-4 text-gray-800">Alert</h1>
-			<heading
-				class="mb-10"
-			>Alerts are used to communicate a state that affects a system, feature or page.</heading>
 
 			<box class="mb-10">
 				<template slot="title">Examples without Icon</template>

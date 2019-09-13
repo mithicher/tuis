@@ -18,7 +18,7 @@
 							<path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
 						</svg>
 					</div>
-					<a href="#" class="inline-flex font-bold text-2xl text-gray-800">September-UI</a>
+					<a href="/" class="inline-flex font-bold text-2xl text-gray-800">September-UI</a>
 				</div>
 				<div class="text-center hidden sm:flex">
 					<inertia-link
@@ -79,8 +79,9 @@
 						>Alert</inertia-link>
 
 						<inertia-link
+							:class="isUrl('avatar') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/about"
+							href="/avatar"
 						>Avatar</inertia-link>
 
 						<inertia-link
@@ -159,8 +160,9 @@
 						>Spinner</inertia-link>
 
 						<inertia-link
+							:class="isUrl('switch') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/switch"
 						>Switch</inertia-link>
 
 						<inertia-link

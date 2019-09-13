@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"9a61b31ee6b4a0cdd1f0","2":"236227706a97062729dd","3":"0517bb7927b26df9f196","4":"e654bf68434cb7ce048b","6":"ca44a75b4d54bc1cb601","7":"fd0e05e9a2d07bd9fbd3","8":"ddb273bfe559b9b99ecf","9":"c61ad51b4230b36c6c5e","14":"05e7e458885d51e70025","15":"3aadecb1859f1885389f","16":"b96e21e732c87c77fd6a","17":"1da3ff831443ca1796b1","18":"a85c04f81d2a86583c11","19":"ee5c05963352f44af301","20":"880ba857dcdc0da8aaf3","21":"da0d5d99e2d34e574ec0","22":"34de42df270fda1655f0","23":"2c3b533770540bf8f8c8","24":"549c494f64d4de1ccb5f"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"79cf59de1c9abfd66d9a","1":"a48a2ea73e992b8fce1f","2":"e82156df9023a59b81bb","3":"156cfbb76e3e88402cff","4":"70fe01cab763226f016c","5":"fb5adaa821d1e32234d1","6":"58c10dbe841c47cac46d","7":"7393cc2eaf70494a4794","8":"92684fb68504f6cb8a65","9":"40bd56ed88786727a9ac","10":"13a1822cea2c65e5ad8a","11":"1faccdfa2c6f76338a8b","12":"8a1488a7bbfaab0091ec","13":"0fe20b4a9a7c88e1fcb5","14":"df7eeca34936b474bcd3","15":"30b11ab680d572dcdd98","16":"1847435462c51915e686","17":"5d66f538f054b15f7447","18":"c2b55d849f1294f36967","19":"af884dd8af18aeeec1f8","20":"3a0ea990f330c437f615"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11434,249 +11434,245 @@ module.exports = g;
 var map = {
 	"./Alert": [
 		"./resources/js/Pages/Alert.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		17
+		7
 	],
 	"./Alert.vue": [
 		"./resources/js/Pages/Alert.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		17
+		7
+	],
+	"./Avatar": [
+		"./resources/js/Pages/Avatar.vue",
+		1,
+		0,
+		2,
+		15
+	],
+	"./Avatar.vue": [
+		"./resources/js/Pages/Avatar.vue",
+		1,
+		0,
+		2,
+		15
 	],
 	"./Badge": [
 		"./resources/js/Pages/Badge.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		15
+		5
 	],
 	"./Badge.vue": [
 		"./resources/js/Pages/Badge.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		15
+		5
 	],
 	"./Button": [
 		"./resources/js/Pages/Button.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		18
+		8
 	],
 	"./Button.vue": [
 		"./resources/js/Pages/Button.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		18
+		8
 	],
 	"./Card": [
 		"./resources/js/Pages/Card.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		22
+		16
 	],
 	"./Card.vue": [
 		"./resources/js/Pages/Card.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		22
+		16
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
-		3,
-		2,
-		24
+		0,
+		19
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
-		3,
-		2,
-		24
+		0,
+		19
 	],
 	"./Dropdown": [
 		"./resources/js/Pages/Dropdown.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		7
+		9
 	],
 	"./Dropdown.vue": [
 		"./resources/js/Pages/Dropdown.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		7
+		9
 	],
 	"./Examples/Navbar": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		16
+		6
 	],
 	"./Examples/Navbar.vue": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		16
+		6
 	],
 	"./GetStarted": [
 		"./resources/js/Pages/GetStarted.vue",
-		3,
+		1,
 		0,
-		2,
-		14
+		4
 	],
 	"./GetStarted.vue": [
 		"./resources/js/Pages/GetStarted.vue",
-		3,
+		1,
 		0,
-		2,
-		14
+		4
 	],
 	"./Heading": [
 		"./resources/js/Pages/Heading.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		8
+		20
 	],
 	"./Heading.vue": [
 		"./resources/js/Pages/Heading.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		8
+		20
 	],
 	"./Input": [
 		"./resources/js/Pages/Input.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		19
+		10
 	],
 	"./Input.vue": [
 		"./resources/js/Pages/Input.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		19
+		10
 	],
 	"./Radio": [
 		"./resources/js/Pages/Radio.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		4
+		3
 	],
 	"./Radio.vue": [
 		"./resources/js/Pages/Radio.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		4
+		3
 	],
 	"./Search": [
 		"./resources/js/Pages/Search.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		20
+		11
 	],
 	"./Search.vue": [
 		"./resources/js/Pages/Search.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		20
+		11
 	],
 	"./Select": [
 		"./resources/js/Pages/Select.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		21
+		12
 	],
 	"./Select.vue": [
 		"./resources/js/Pages/Select.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		21
+		12
 	],
 	"./Spinner": [
 		"./resources/js/Pages/Spinner.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		1
+		18
 	],
 	"./Spinner.vue": [
 		"./resources/js/Pages/Spinner.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		1
+		18
+	],
+	"./Switch": [
+		"./resources/js/Pages/Switch.vue",
+		1,
+		0,
+		2,
+		13
+	],
+	"./Switch.vue": [
+		"./resources/js/Pages/Switch.vue",
+		1,
+		0,
+		2,
+		13
 	],
 	"./Table": [
 		"./resources/js/Pages/Table.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		9
+		17
 	],
 	"./Table.vue": [
 		"./resources/js/Pages/Table.vue",
-		3,
+		1,
 		0,
 		2,
-		6,
-		9
+		17
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
-		3,
-		2,
-		23
+		0,
+		14
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
-		3,
-		2,
-		23
+		0,
+		14
 	]
 };
 function webpackAsyncContext(req) {

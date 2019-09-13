@@ -77,6 +77,7 @@ export default {
 
 	data() {
 		return {
+			search: "",
 			code: code,
 			jsCode: jsCode,
 			datas: [
