@@ -95,5 +95,9 @@ Route::get('/register', function () {
     return Inertia::render('Examples/Register');
 });
 
+Route::get('/layout-one', function () {
+    return Inertia::render('Examples/LayoutOne');
+});
+
 
 Route::post('/test/store', 'TestController@store');

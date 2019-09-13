@@ -243,6 +243,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -795,9 +796,10 @@ var render = function() {
                       {
                         staticClass:
                           "rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500",
-                        attrs: { href: "/contact" }
+                        class: _vm.isUrl("layout-one") ? "text-blue-500" : "",
+                        attrs: { href: "/layout-one" }
                       },
-                      [_vm._v("Contact Form")]
+                      [_vm._v("Sample layout")]
                     ),
                     _vm._v(" "),
                     _c(
