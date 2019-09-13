@@ -159,6 +159,7 @@ __webpack_require__.r(__webpack_exports__);
   computed: {
     cssClasses: function cssClasses() {
       return {
+        "text-sm text-gray-600 leading-normal": this.size == "small",
         "text-base text-gray-600 leading-normal": this.size == "normal",
         "text-2xl text-gray-800 font-bold leading-tight": this.size == "heading",
         "text-4xl text-gray-800 font-bold leading-tight": this.size == "heading2",
@@ -463,9 +464,11 @@ var render = function() {
               [_vm._v("Login to Account")]
             ),
             _vm._v(" "),
-            _c("heading", { staticClass: "mb-4 text-center" }, [
-              _vm._v("Please enter your email and password to continue")
-            ]),
+            _c(
+              "heading",
+              { staticClass: "mb-4 text-center", attrs: { size: "small" } },
+              [_vm._v("Please enter your email and password to continue")]
+            ),
             _vm._v(" "),
             _c("text-input", {
               staticClass: "mb-4",

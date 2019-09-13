@@ -127,6 +127,7 @@ __webpack_require__.r(__webpack_exports__);
   computed: {
     cssClasses: function cssClasses() {
       return {
+        "text-sm text-gray-600 leading-normal": this.size == "small",
         "text-base text-gray-600 leading-normal": this.size == "normal",
         "text-2xl text-gray-800 font-bold leading-tight": this.size == "heading",
         "text-4xl text-gray-800 font-bold leading-tight": this.size == "heading2",

@@ -34,6 +34,7 @@ export default {
 	computed: {
 		cssClasses() {
 			return {
+				"text-sm text-gray-600 leading-normal": this.size == "small",
 				"text-base text-gray-600 leading-normal": this.size == "normal",
 				"text-2xl text-gray-800 font-bold leading-tight":
 					this.size == "heading",

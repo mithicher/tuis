@@ -866,7 +866,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c(
       "div",
-      { staticClass: "mt-16 border-t py-6 text-center md:max-w-6xl mx-auto" },
+      { staticClass: "mt-16 border-t-2 py-6 text-center md:max-w-6xl mx-auto" },
       [
         _c("p", { staticClass: "text-gray-500 text-sm" }, [
           _vm._v("Made in Guwahati. Copyright © 2019")

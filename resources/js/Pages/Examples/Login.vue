@@ -3,7 +3,7 @@
 		<div class="h-screen bg-gray-100 flex items-center">
 			<card class="max-w-md mx-auto py-5">
 				<heading size="heading" class="mb-1 text-center">Login to Account</heading>
-				<heading class="mb-4 text-center">Please enter your email and password to continue</heading>
+				<heading class="mb-4 text-center" size="small">Please enter your email and password to continue</heading>
 				<text-input label="Email address" class="mb-4"></text-input>
 
 				<div class="relative">
