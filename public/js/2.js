@@ -241,6 +241,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -771,8 +773,8 @@ var render = function() {
                       {
                         staticClass:
                           "rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500",
-                        class: _vm.isUrl("about") ? "text-blue-500" : "",
-                        attrs: { href: "/about" }
+                        class: _vm.isUrl("login") ? "text-blue-500" : "",
+                        attrs: { href: "/login" }
                       },
                       [_vm._v("Login")]
                     ),
@@ -782,7 +784,8 @@ var render = function() {
                       {
                         staticClass:
                           "rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500",
-                        attrs: { href: "/contact" }
+                        class: _vm.isUrl("register") ? "text-blue-500" : "",
+                        attrs: { href: "/register" }
                       },
                       [_vm._v("Register")]
                     ),

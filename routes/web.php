@@ -87,4 +87,13 @@ Route::get('/example-navbar', function () {
     return Inertia::render('Examples/Navbar');
 });
 
+Route::get('/login', function () {
+    return Inertia::render('Examples/Login');
+});
+
+Route::get('/register', function () {
+    return Inertia::render('Examples/Register');
+});
+
+
 Route::post('/test/store', 'TestController@store');

@@ -196,14 +196,15 @@
 						>Navbar</inertia-link>
 
 						<inertia-link
-							:class="isUrl('about') ? 'text-blue-500' : ''"
+							:class="isUrl('login') ? 'text-blue-500' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/about"
+							href="/login"
 						>Login</inertia-link>
 
 						<inertia-link
+							:class="isUrl('register') ? 'text-blue-500' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
-							href="/contact"
+							href="/register"
 						>Register</inertia-link>
 
 						<inertia-link
@@ -222,6 +223,7 @@
 						>Modal</inertia-link>
 					</div>
 				</div>
+
 				<div class="px-6 py-10 flex-1">
 					<slot />
 				</div>

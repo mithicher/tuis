@@ -12,7 +12,7 @@
 			</div>
 		</div>
 
-		<div class="px-8 py-6">
+		<div :class="bodyClass">
 			<slot />
 		</div>
 
@@ -34,6 +34,18 @@ export default {
 		withFooter: {
 			type: Boolean,
 			default: false
+		},
+		isPadding: {
+			type: Boolean,
+			default: true
+		}
+	},
+
+	computed: {
+		bodyClass() {
+			return {
+				"px-8 py-6": this.isPadding === true
+			};
 		}
 	}
 };

@@ -26,7 +26,6 @@
 			</box>
 
 			<code-block :code="code2" language="html" class="mb-10">Template Code</code-block>
-
 			<code-block :code="jsCode" language="js" class="mb-10">JS Code</code-block>
 
 			<h1 class="text-2xl font-bold mb-4 text-gray-800 mt-10">Props</h1>
@@ -110,6 +109,12 @@ export default {
 					type: "Boolean",
 					default: false,
 					description: "If true, footer section is shown"
+				},
+				{
+					name: "is-padding",
+					type: "Boolean",
+					default: true,
+					description: "If false, padding is removed"
 				}
 			]
 		};

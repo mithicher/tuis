@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"23fd17a91328d3730e9d","2":"f1d3918045bdedd64a62","7":"8aa452c083268704471a","21":"57d3f7bd73ef40d18e0c","22":"a1bc845438b15e4febab","23":"877df91e1d136d94044d","24":"1ad3610b666a0ccbbafc","25":"df6f42520dd2843ce204","26":"21b908ab2c8b9b85bd9e","27":"3e7f8fbca2fa68d4ff89","28":"787442ba72055d744940","29":"a2aeb40ac479b8e53e43","30":"71e04d71824143037cfb","31":"e1ac0f41a63ac9155537","32":"72fab8dfa084e7281404","33":"c566894430d7967e101d","34":"2c1c323be457a4fcbdc2","35":"de8a6ab8655e732b116b","36":"774985b14497d4671c35","37":"124fe48feed8ce8de1f2","38":"0189bcaad710c0e6712c"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","2":"cbdfb4c993835ccc42ee","3":"0517bb7927b26df9f196","4":"90a8489f6e744ea374b0","5":"a0924ac84a9cdb169f53","7":"8aa452c083268704471a","21":"57d3f7bd73ef40d18e0c","22":"a1bc845438b15e4febab","23":"877df91e1d136d94044d","24":"1ad3610b666a0ccbbafc","25":"df6f42520dd2843ce204","26":"21b908ab2c8b9b85bd9e","27":"3e7f8fbca2fa68d4ff89","28":"787442ba72055d744940","29":"a2aeb40ac479b8e53e43","30":"71e04d71824143037cfb","31":"e1ac0f41a63ac9155537","32":"72fab8dfa084e7281404","33":"746ec5f69776705cfcbc","34":"2c1c323be457a4fcbdc2","35":"de8a6ab8655e732b116b","36":"774985b14497d4671c35","37":"124fe48feed8ce8de1f2","38":"0189bcaad710c0e6712c"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11434,7 +11434,7 @@ module.exports = g;
 var map = {
 	"./Alert": [
 		"./resources/js/Pages/Alert.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11442,7 +11442,7 @@ var map = {
 	],
 	"./Alert.vue": [
 		"./resources/js/Pages/Alert.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11450,7 +11450,7 @@ var map = {
 	],
 	"./Avatar": [
 		"./resources/js/Pages/Avatar.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11458,7 +11458,7 @@ var map = {
 	],
 	"./Avatar.vue": [
 		"./resources/js/Pages/Avatar.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11466,7 +11466,7 @@ var map = {
 	],
 	"./Badge": [
 		"./resources/js/Pages/Badge.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11474,7 +11474,7 @@ var map = {
 	],
 	"./Badge.vue": [
 		"./resources/js/Pages/Badge.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11482,7 +11482,7 @@ var map = {
 	],
 	"./Button": [
 		"./resources/js/Pages/Button.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11490,7 +11490,7 @@ var map = {
 	],
 	"./Button.vue": [
 		"./resources/js/Pages/Button.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11498,7 +11498,7 @@ var map = {
 	],
 	"./Card": [
 		"./resources/js/Pages/Card.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11506,7 +11506,7 @@ var map = {
 	],
 	"./Card.vue": [
 		"./resources/js/Pages/Card.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11514,19 +11514,19 @@ var map = {
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
-		1,
+		3,
 		2,
 		37
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
-		1,
+		3,
 		2,
 		37
 	],
 	"./Dropdown": [
 		"./resources/js/Pages/Dropdown.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11534,15 +11534,27 @@ var map = {
 	],
 	"./Dropdown.vue": [
 		"./resources/js/Pages/Dropdown.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
 		27
 	],
+	"./Examples/Login": [
+		"./resources/js/Pages/Examples/Login.vue",
+		3,
+		2,
+		4
+	],
+	"./Examples/Login.vue": [
+		"./resources/js/Pages/Examples/Login.vue",
+		3,
+		2,
+		4
+	],
 	"./Examples/Navbar": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11550,29 +11562,41 @@ var map = {
 	],
 	"./Examples/Navbar.vue": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
 		24
 	],
+	"./Examples/Register": [
+		"./resources/js/Pages/Examples/Register.vue",
+		3,
+		2,
+		5
+	],
+	"./Examples/Register.vue": [
+		"./resources/js/Pages/Examples/Register.vue",
+		3,
+		2,
+		5
+	],
 	"./GetStarted": [
 		"./resources/js/Pages/GetStarted.vue",
-		1,
+		3,
 		0,
 		2,
 		22
 	],
 	"./GetStarted.vue": [
 		"./resources/js/Pages/GetStarted.vue",
-		1,
+		3,
 		0,
 		2,
 		22
 	],
 	"./Heading": [
 		"./resources/js/Pages/Heading.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11580,7 +11604,7 @@ var map = {
 	],
 	"./Heading.vue": [
 		"./resources/js/Pages/Heading.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11588,7 +11612,7 @@ var map = {
 	],
 	"./Input": [
 		"./resources/js/Pages/Input.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11596,7 +11620,7 @@ var map = {
 	],
 	"./Input.vue": [
 		"./resources/js/Pages/Input.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11604,7 +11628,7 @@ var map = {
 	],
 	"./Radio": [
 		"./resources/js/Pages/Radio.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11612,7 +11636,7 @@ var map = {
 	],
 	"./Radio.vue": [
 		"./resources/js/Pages/Radio.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11620,7 +11644,7 @@ var map = {
 	],
 	"./Search": [
 		"./resources/js/Pages/Search.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11628,7 +11652,7 @@ var map = {
 	],
 	"./Search.vue": [
 		"./resources/js/Pages/Search.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11636,7 +11660,7 @@ var map = {
 	],
 	"./Select": [
 		"./resources/js/Pages/Select.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11644,7 +11668,7 @@ var map = {
 	],
 	"./Select.vue": [
 		"./resources/js/Pages/Select.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11652,7 +11676,7 @@ var map = {
 	],
 	"./Spinner": [
 		"./resources/js/Pages/Spinner.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11660,7 +11684,7 @@ var map = {
 	],
 	"./Spinner.vue": [
 		"./resources/js/Pages/Spinner.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11668,7 +11692,7 @@ var map = {
 	],
 	"./Switch": [
 		"./resources/js/Pages/Switch.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11676,7 +11700,7 @@ var map = {
 	],
 	"./Switch.vue": [
 		"./resources/js/Pages/Switch.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11684,7 +11708,7 @@ var map = {
 	],
 	"./Table": [
 		"./resources/js/Pages/Table.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11692,7 +11716,7 @@ var map = {
 	],
 	"./Table.vue": [
 		"./resources/js/Pages/Table.vue",
-		1,
+		3,
 		0,
 		2,
 		7,
@@ -11700,13 +11724,13 @@ var map = {
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
-		1,
+		3,
 		2,
 		35
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
-		1,
+		3,
 		2,
 		35
 	]

@@ -72,7 +72,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 
 
@@ -106,6 +105,11 @@ var jsCode = "import Card from @/Shared/tuis/Card\";\n\nexport default { \n\tcom
         type: "Boolean",
         "default": false,
         description: "If true, footer section is shown"
+      }, {
+        name: "is-padding",
+        type: "Boolean",
+        "default": true,
+        description: "If false, padding is removed"
       }]
     };
   }
@@ -156,6 +160,17 @@ __webpack_require__.r(__webpack_exports__);
     withFooter: {
       type: Boolean,
       "default": false
+    },
+    isPadding: {
+      type: Boolean,
+      "default": true
+    }
+  },
+  computed: {
+    bodyClass: function bodyClass() {
+      return {
+        "px-8 py-6": this.isPadding === true
+      };
     }
   }
 });
@@ -377,7 +392,7 @@ var render = function() {
           )
         : _vm._e(),
       _vm._v(" "),
-      _c("div", { staticClass: "px-8 py-6" }, [_vm._t("default")], 2),
+      _c("div", { class: _vm.bodyClass }, [_vm._t("default")], 2),
       _vm._v(" "),
       _vm.withFooter
         ? _c(
