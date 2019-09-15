@@ -1,6 +1,8 @@
 <template>
 	<div>
-		<div class="md:flex items-center justify-between bg-white shadow-base px-4 relative z-20 md:z-20">
+		<div
+			class="md:flex items-center justify-between bg-white shadow-base px-4 py-2 relative z-20 md:z-20"
+		>
 			<div class="flex justify-between md:flex-none items-center">
 				<div
 					class="inline-block md:hidden inline-flex items-center justify-center w-8 h-8 rounded-full mr-2 cursor-pointer"
@@ -79,7 +81,7 @@
 				</dropdown>
 			</div>
 
-			<div class="md:hidden" v-if="showNavbar">
+			<div class="md:hidden mt-2" v-if="showNavbar">
 				<a href="#" class="border-t px-2 py-3 block font-medium text-gray-600 hover:text-blue-500">Home</a>
 				<a
 					href="#"

@@ -426,6 +426,8 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
 var toCurrency = function toCurrency(n, curr) {
   var LanguageFormat = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : undefined;
   return Intl.NumberFormat(LanguageFormat, {
@@ -826,7 +828,7 @@ var render = function() {
       "div",
       {
         staticClass:
-          "md:flex items-center justify-between bg-white shadow-base px-4 relative z-20 md:z-20"
+          "md:flex items-center justify-between bg-white shadow-base px-4 py-2 relative z-20 md:z-20"
       },
       [
         _c(
@@ -1023,7 +1025,7 @@ var render = function() {
         ),
         _vm._v(" "),
         _vm.showNavbar
-          ? _c("div", { staticClass: "md:hidden" }, [
+          ? _c("div", { staticClass: "md:hidden mt-2" }, [
               _c(
                 "a",
                 {
