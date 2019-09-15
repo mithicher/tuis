@@ -25,6 +25,7 @@
     "dependencies": {
         "prismjs": "^1.17.1",
         "vue": "^2.6.10",
+        "vue-mobile-detection": "^1.0.0",
         "vue-prism-editor": "^0.3.0",
         "vue-snack": "^0.1.4"
     }

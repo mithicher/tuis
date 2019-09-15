@@ -19,7 +19,7 @@
 						</svg>
 					</div>
 					<a href="/" class="inline-flex">
-						<img src="/september_ui_logo.png" alt="logo" width="48" />
+						<img src="/september_ui_logo.png" alt="logo" width="40" />
 					</a>
 				</div>
 				<div class="text-center hidden sm:flex">
@@ -214,7 +214,19 @@
 							:class="isUrl('layout-one') ? 'text-blue-500' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
 							href="/layout-one"
-						>Sample layout</inertia-link>
+						>Example Layout</inertia-link>
+
+						<inertia-link
+							:class="isUrl('layout-two') ? 'text-blue-500' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/layout-two"
+						>Example Layout Two</inertia-link>
+
+						<inertia-link
+							:class="isUrl('landing-page') ? 'text-blue-500' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/landing-page"
+						>Landing Page</inertia-link>
 
 						<inertia-link
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"

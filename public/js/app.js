@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"9715c0ba9859c7005cc9","2":"01affd4eadca7959437f","3":"0517bb7927b26df9f196","4":"1d6446d48e00e39230ba","5":"cf439a2d200bb2919e18","7":"329e9d856ebd892e7872","8":"a86293ccd76fef9f3a3d","10":"d2d6b441cb5d727d70f3","14":"a5bfd5d58314ebf5d548","15":"edc2a6031b883060eeb4","16":"7b8234b52b1db6d98e05","22":"3f7cdc5e481dddc77842","25":"e56de9026a9f71d45145","26":"f4b724f24e55d2255d7e","27":"45c29780ca35dae8b96a","28":"787442ba72055d744940","29":"a2aeb40ac479b8e53e43","30":"71e04d71824143037cfb","31":"e1ac0f41a63ac9155537","32":"72fab8dfa084e7281404","33":"746ec5f69776705cfcbc","34":"2c1c323be457a4fcbdc2","35":"3b986d7965d9a1fca9a3","36":"774985b14497d4671c35","37":"124fe48feed8ce8de1f2","38":"0189bcaad710c0e6712c"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"e749b22c79493c1e841d","2":"69b8ddebad0ec55d260b","3":"f4e11fe47069e8d46c23","4":"0ea667a6efdddedb2296","5":"c27eacf47eefdc1c88d6","7":"c277199e3ce10612e728","10":"c4a58e7067a0de23e388","12":"0823879fdeb71a66d4a1","29":"4546a716698067dce4b4","30":"ae196743b68075eb720e","32":"c333fc181f509b65f6c6","33":"ffbb58ce2e42754df151","34":"07786474cff44f5502de","35":"d1e5c4fd4a7f584a5b02","36":"b11d8bdb3faf2db32fd4","37":"69f47dd5d7a403372084","38":"6398f62f5618ca4e40d3","39":"6c296417f3a1010bbdc0","40":"7a7dbf2ccb47073352df","41":"f0c49188498bab715092","42":"c3c0d21537cb9d580dbb","43":"4ffbf3edea2f8de913f8","44":"e8a852d7929607f93101","45":"c87522956c8a08a36a40","46":"72f0dc7e8a860abaf87b","47":"66d583404409c5a63a0f","48":"066c635f8de79c154add","49":"acf51ef4bb038bef9c6c","50":"219750c8673838b832f1"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -2944,6 +2944,167 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
                          (this && this.clearImmediate);
 
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js")))
+
+/***/ }),
+
+/***/ "./node_modules/vue-mobile-detection/dist/vue-mobile-detection.umd.js":
+/*!****************************************************************************!*\
+  !*** ./node_modules/vue-mobile-detection/dist/vue-mobile-detection.umd.js ***!
+  \****************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory();
+	else {}
+})((typeof self !== 'undefined' ? self : this), function() {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+/******/
+/******/ 	// The require function
+/******/ 	function __webpack_require__(moduleId) {
+/******/
+/******/ 		// Check if module is in cache
+/******/ 		if(installedModules[moduleId]) {
+/******/ 			return installedModules[moduleId].exports;
+/******/ 		}
+/******/ 		// Create a new module (and put it into the cache)
+/******/ 		var module = installedModules[moduleId] = {
+/******/ 			i: moduleId,
+/******/ 			l: false,
+/******/ 			exports: {}
+/******/ 		};
+/******/
+/******/ 		// Execute the module function
+/******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
+/******/
+/******/ 		// Flag the module as loaded
+/******/ 		module.l = true;
+/******/
+/******/ 		// Return the exports of the module
+/******/ 		return module.exports;
+/******/ 	}
+/******/
+/******/
+/******/ 	// expose the modules object (__webpack_modules__)
+/******/ 	__webpack_require__.m = modules;
+/******/
+/******/ 	// expose the module cache
+/******/ 	__webpack_require__.c = installedModules;
+/******/
+/******/ 	// define getter function for harmony exports
+/******/ 	__webpack_require__.d = function(exports, name, getter) {
+/******/ 		if(!__webpack_require__.o(exports, name)) {
+/******/ 			Object.defineProperty(exports, name, { enumerable: true, get: getter });
+/******/ 		}
+/******/ 	};
+/******/
+/******/ 	// define __esModule on exports
+/******/ 	__webpack_require__.r = function(exports) {
+/******/ 		if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 			Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 		}
+/******/ 		Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 	};
+/******/
+/******/ 	// create a fake namespace object
+/******/ 	// mode & 1: value is a module id, require it
+/******/ 	// mode & 2: merge all properties of value into the ns
+/******/ 	// mode & 4: return value when already ns object
+/******/ 	// mode & 8|1: behave like require
+/******/ 	__webpack_require__.t = function(value, mode) {
+/******/ 		if(mode & 1) value = __webpack_require__(value);
+/******/ 		if(mode & 8) return value;
+/******/ 		if((mode & 4) && typeof value === 'object' && value && value.__esModule) return value;
+/******/ 		var ns = Object.create(null);
+/******/ 		__webpack_require__.r(ns);
+/******/ 		Object.defineProperty(ns, 'default', { enumerable: true, value: value });
+/******/ 		if(mode & 2 && typeof value != 'string') for(var key in value) __webpack_require__.d(ns, key, function(key) { return value[key]; }.bind(null, key));
+/******/ 		return ns;
+/******/ 	};
+/******/
+/******/ 	// getDefaultExport function for compatibility with non-harmony modules
+/******/ 	__webpack_require__.n = function(module) {
+/******/ 		var getter = module && module.__esModule ?
+/******/ 			function getDefault() { return module['default']; } :
+/******/ 			function getModuleExports() { return module; };
+/******/ 		__webpack_require__.d(getter, 'a', getter);
+/******/ 		return getter;
+/******/ 	};
+/******/
+/******/ 	// Object.prototype.hasOwnProperty.call
+/******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
+/******/
+/******/ 	// __webpack_public_path__
+/******/ 	__webpack_require__.p = "";
+/******/
+/******/
+/******/ 	// Load entry module and return exports
+/******/ 	return __webpack_require__(__webpack_require__.s = "fb15");
+/******/ })
+/************************************************************************/
+/******/ ({
+
+/***/ "fb15":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+
+// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
+// This file is imported into lib/wc client bundles.
+
+if (typeof window !== 'undefined') {
+  var i
+  if ((i = window.document.currentScript) && (i = i.src.match(/(.+\/)[^/]+\.js(\?.*)?$/))) {
+    __webpack_require__.p = i[1] // eslint-disable-line
+  }
+}
+
+// Indicate to webpack that this file can be concatenated
+/* harmony default export */ var setPublicPath = (null);
+
+// CONCATENATED MODULE: ./src/components/VueMobileDetection.js
+function detectMobile() {
+  /* eslint-disable */
+  var check = false;
+
+  (function (a) {
+    if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+  })(navigator.userAgent || navigator.vendor || window.opera);
+
+  return check;
+}
+// CONCATENATED MODULE: ./src/components/index.js
+
+
+if (typeof window !== "undefined" && window.Vue) {
+  window.Vue.use({
+    install: function install(NewVue) {
+      NewVue.prototype.$isMobile = detectMobile;
+    }
+  });
+}
+
+/* harmony default export */ var components = ({
+  install: function install(NewVue) {
+    NewVue.prototype.$isMobile = detectMobile;
+  }
+});
+// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
+
+
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (components);
+
+
+
+/***/ })
+
+/******/ });
+});
+//# sourceMappingURL=vue-mobile-detection.umd.js.map
 
 /***/ }),
 
@@ -11448,337 +11609,377 @@ module.exports = g;
 var map = {
 	"./Alert": [
 		"./resources/js/Pages/Alert.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		16
+		12,
+		35
 	],
 	"./Alert.vue": [
 		"./resources/js/Pages/Alert.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		16
+		12,
+		35
 	],
 	"./Avatar": [
 		"./resources/js/Pages/Avatar.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		32
+		12,
+		41
 	],
 	"./Avatar.vue": [
 		"./resources/js/Pages/Avatar.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		32
+		12,
+		41
 	],
 	"./Badge": [
 		"./resources/js/Pages/Badge.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		14,
-		10
+		12,
+		5,
+		47
 	],
 	"./Badge.vue": [
 		"./resources/js/Pages/Badge.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		14,
-		10
+		12,
+		5,
+		47
 	],
 	"./Button": [
 		"./resources/js/Pages/Button.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		26
+		12,
+		36
 	],
 	"./Button.vue": [
 		"./resources/js/Pages/Button.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		26
+		12,
+		36
 	],
 	"./Card": [
 		"./resources/js/Pages/Card.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		33
+		12,
+		42
 	],
 	"./Card.vue": [
 		"./resources/js/Pages/Card.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		33
+		12,
+		42
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
-		3,
+		2,
 		1,
-		37
+		49
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
-		3,
+		2,
 		1,
-		37
+		49
 	],
 	"./Dropdown": [
 		"./resources/js/Pages/Dropdown.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		27
+		12,
+		37
 	],
 	"./Dropdown.vue": [
 		"./resources/js/Pages/Dropdown.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		27
+		12,
+		37
+	],
+	"./Examples/LandingPage": [
+		"./resources/js/Pages/Examples/LandingPage.vue",
+		2,
+		1,
+		12,
+		5,
+		7
+	],
+	"./Examples/LandingPage.vue": [
+		"./resources/js/Pages/Examples/LandingPage.vue",
+		2,
+		1,
+		12,
+		5,
+		7
 	],
 	"./Examples/LayoutOne": [
 		"./resources/js/Pages/Examples/LayoutOne.vue",
-		3,
+		2,
 		1,
-		14,
-		2
+		12,
+		5,
+		4
 	],
 	"./Examples/LayoutOne.vue": [
 		"./resources/js/Pages/Examples/LayoutOne.vue",
-		3,
+		2,
 		1,
-		14,
-		2
+		12,
+		5,
+		4
+	],
+	"./Examples/LayoutTwo": [
+		"./resources/js/Pages/Examples/LayoutTwo.vue",
+		2,
+		1,
+		12,
+		5,
+		3
+	],
+	"./Examples/LayoutTwo.vue": [
+		"./resources/js/Pages/Examples/LayoutTwo.vue",
+		2,
+		1,
+		12,
+		5,
+		3
 	],
 	"./Examples/Login": [
 		"./resources/js/Pages/Examples/Login.vue",
-		3,
+		2,
 		1,
-		4
+		29
 	],
 	"./Examples/Login.vue": [
 		"./resources/js/Pages/Examples/Login.vue",
-		3,
+		2,
 		1,
-		4
+		29
 	],
 	"./Examples/Navbar": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		15
+		12,
+		34
 	],
 	"./Examples/Navbar.vue": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		15
+		12,
+		34
 	],
 	"./Examples/Register": [
 		"./resources/js/Pages/Examples/Register.vue",
-		3,
+		2,
 		1,
-		5
+		30
 	],
 	"./Examples/Register.vue": [
 		"./resources/js/Pages/Examples/Register.vue",
-		3,
+		2,
 		1,
-		5
+		30
 	],
 	"./GetStarted": [
 		"./resources/js/Pages/GetStarted.vue",
-		3,
+		2,
 		0,
 		1,
-		22
+		12,
+		45
 	],
 	"./GetStarted.vue": [
 		"./resources/js/Pages/GetStarted.vue",
-		3,
+		2,
 		0,
 		1,
-		22
+		12,
+		45
 	],
 	"./Heading": [
 		"./resources/js/Pages/Heading.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		38
+		12,
+		48
 	],
 	"./Heading.vue": [
 		"./resources/js/Pages/Heading.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		38
+		12,
+		48
 	],
 	"./Input": [
 		"./resources/js/Pages/Input.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		28
+		12,
+		38
 	],
 	"./Input.vue": [
 		"./resources/js/Pages/Input.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		28
+		12,
+		38
 	],
 	"./Radio": [
 		"./resources/js/Pages/Radio.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		25
+		12,
+		10,
+		33
 	],
 	"./Radio.vue": [
 		"./resources/js/Pages/Radio.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		25
+		12,
+		10,
+		33
 	],
 	"./Search": [
 		"./resources/js/Pages/Search.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		29
+		12,
+		39
 	],
 	"./Search.vue": [
 		"./resources/js/Pages/Search.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		29
+		12,
+		39
 	],
 	"./Select": [
 		"./resources/js/Pages/Select.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		30
+		12,
+		10,
+		50
 	],
 	"./Select.vue": [
 		"./resources/js/Pages/Select.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		30
+		12,
+		10,
+		50
 	],
 	"./Spinner": [
 		"./resources/js/Pages/Spinner.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		36
+		12,
+		44
 	],
 	"./Spinner.vue": [
 		"./resources/js/Pages/Spinner.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		36
+		12,
+		44
 	],
 	"./Switch": [
 		"./resources/js/Pages/Switch.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		31
+		12,
+		40
 	],
 	"./Switch.vue": [
 		"./resources/js/Pages/Switch.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		31
+		12,
+		40
 	],
 	"./Table": [
 		"./resources/js/Pages/Table.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		34
+		12,
+		43
 	],
 	"./Table.vue": [
 		"./resources/js/Pages/Table.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		34
+		12,
+		43
 	],
 	"./Toast": [
 		"./resources/js/Pages/Toast.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		8
+		12,
+		32
 	],
 	"./Toast.vue": [
 		"./resources/js/Pages/Toast.vue",
-		3,
+		2,
 		0,
 		1,
-		7,
-		8
+		12,
+		32
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
-		3,
+		2,
 		1,
-		35
+		46
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
-		3,
+		2,
 		1,
-		35
+		46
 	]
 };
 function webpackAsyncContext(req) {
@@ -11817,6 +12018,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_inertiajs_inertia_vue__WEBPACK_IMPORTED_MODULE_1__);
 /* harmony import */ var vue_snack__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue-snack */ "./node_modules/vue-snack/dist/vue-snack.min.js");
 /* harmony import */ var vue_snack__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue_snack__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var vue_mobile_detection__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue-mobile-detection */ "./node_modules/vue-mobile-detection/dist/vue-mobile-detection.umd.js");
+/* harmony import */ var vue_mobile_detection__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue_mobile_detection__WEBPACK_IMPORTED_MODULE_3__);
+
 
 
 
@@ -11825,6 +12029,7 @@ vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vue_snack__WEBPACK_IMPORTED_MODU
   close: true,
   position: "bottom-left"
 });
+vue__WEBPACK_IMPORTED_MODULE_0__["default"].use(vue_mobile_detection__WEBPACK_IMPORTED_MODULE_3___default.a);
 var app = document.getElementById("app");
 new vue__WEBPACK_IMPORTED_MODULE_0__["default"]({
   render: function render(h) {

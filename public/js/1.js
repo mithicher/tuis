@@ -251,6 +251,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -802,7 +814,29 @@ var render = function() {
                         class: _vm.isUrl("layout-one") ? "text-blue-500" : "",
                         attrs: { href: "/layout-one" }
                       },
-                      [_vm._v("Sample layout")]
+                      [_vm._v("Example Layout")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "inertia-link",
+                      {
+                        staticClass:
+                          "rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500",
+                        class: _vm.isUrl("layout-two") ? "text-blue-500" : "",
+                        attrs: { href: "/layout-two" }
+                      },
+                      [_vm._v("Example Layout Two")]
+                    ),
+                    _vm._v(" "),
+                    _c(
+                      "inertia-link",
+                      {
+                        staticClass:
+                          "rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500",
+                        class: _vm.isUrl("landing-page") ? "text-blue-500" : "",
+                        attrs: { href: "/landing-page" }
+                      },
+                      [_vm._v("Landing Page")]
                     ),
                     _vm._v(" "),
                     _c(
@@ -848,7 +882,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("a", { staticClass: "inline-flex", attrs: { href: "/" } }, [
       _c("img", {
-        attrs: { src: "/september_ui_logo.png", alt: "logo", width: "48" }
+        attrs: { src: "/september_ui_logo.png", alt: "logo", width: "40" }
       })
     ])
   },

@@ -103,5 +103,13 @@ Route::get('/layout-one', function () {
     return Inertia::render('Examples/LayoutOne');
 });
 
+Route::get('/layout-two', function () {
+    return Inertia::render('Examples/LayoutTwo');
+});
+
+Route::get('/landing-page', function () {
+    return Inertia::render('Examples/LandingPage');
+});
+
 
 Route::post('/test/store', 'TestController@store');
