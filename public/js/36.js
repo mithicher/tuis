@@ -252,6 +252,10 @@ __webpack_require__.r(__webpack_exports__);
     size: {
       type: String,
       "default": "normal"
+    },
+    rounded: {
+      type: String,
+      "default": "medium"
     }
   },
   data: function data() {
@@ -274,9 +278,12 @@ __webpack_require__.r(__webpack_exports__);
     btnClass: function btnClass() {
       return {
         "base-spinner": this.loading == true,
-        "base-button inline-flex align-items-center justify-center rounded-lg font-semibold outline-none": true,
+        "base-button inline-flex align-items-center justify-center font-semibold outline-none": true,
+        rounded: this.rounded === "small",
+        "rounded-lg": this.rounded === "medium",
+        "rounded-full": this.rounded === "large",
         "px-6 py-3": this.size == "normal",
-        "px-3 py-1 h-10": this.size == "small",
+        "px-5 py-1 h-10": this.size == "small",
         "border border-blue-600 bg-blue-600 hover:bg-blue-700 text-white": this.variant == "primary" && this.variantType == "",
         "border border-red-600 bg-red-600 hover:bg-red-700 text-white": this.variant == "danger" && this.variantType == "",
         "border border-gray-400 text-blue-500 hover:text-blue-700": this.variant == "primary" && this.variantType == "outline",

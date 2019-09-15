@@ -3,7 +3,7 @@
 		<div class="bg-white shadow-base px-4 relative z-20 md:z-20">
 			<div class="container md:flex items-center justify-between mx-auto">
 				<div class="flex justify-between md:flex-none items-center">
-					<a href="#">
+					<a href="#" class="py-3">
 						<img src="/september_ui_logo.png" alt="logo" width="36" />
 					</a>
 
@@ -27,15 +27,16 @@
 					<a
 						href="#"
 						class="px-4 mr-3 py-5 inline-block font-medium active text-blue-600 hover:text-blue-600"
+					>Home</a>
+					<a
+						href="#"
+						class="px-4 mr-3 py-5 inline-block font-medium text-gray-500 hover:text-blue-600"
 					>Events</a>
 					<a
 						href="#"
 						class="px-4 mr-3 py-5 inline-block font-medium text-gray-500 hover:text-blue-600"
 					>Tickets</a>
-					<a
-						href="#"
-						class="px-4 mr-3 py-5 inline-block font-medium text-gray-500 hover:text-blue-600"
-					>Account</a>
+
 					<a
 						href="#"
 						class="px-4 py-5 inline-block font-medium text-gray-500 hover:text-blue-600"
@@ -43,17 +44,22 @@
 				</div>
 
 				<div class="hidden md:block">
-					<dropdown>
+					<a
+						href="#"
+						class="px-4 py-5 mr-3 inline-block font-medium text-gray-500 hover:text-blue-600"
+					>Log in</a>
+					<loading-button href="#" variant="primary" size="small">Sign up</loading-button>
+					<!-- <dropdown>
 						<template #trigger>
-							<span
-								class="outline-none block inline-flex items-center justify-center h-10 w-10 overflow-hidden rounded-full shadow-inner"
+							<div
+								class="outline-none inline-flex items-center justify-center h-10 w-10 overflow-hidden rounded-full shadow-inner"
 							>
 								<img
 									src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=256&amp;q=80"
 									alt
 									class="h-full w-full object-cover"
 								/>
-							</span>
+							</div>
 						</template>
 						<template #dropdown>
 							<div class="mt-2 bg-white xl:border rounded-lg w-48 py-1 shadow-xl">
@@ -80,7 +86,7 @@
 								>Logout</a>
 							</div>
 						</template>
-					</dropdown>
+					</dropdown>-->
 				</div>
 			</div>
 
@@ -106,8 +112,49 @@
 			</div>
 		</div>
 
-		<div class="px-4 lg:px-6 py-10">
-			<div class="container mx-auto"></div>
+		<div class="bg-gray-200 px-4 py-10">
+			<div class="mx-auto max-w-2xl text-center">
+				<heading
+					size="heading2"
+					tag="h1"
+					class="mb-4"
+				>Find amazing events happening around your nearby places</heading>
+
+				<search-input rounded="large" placeholder="Near Guwahati..."></search-input>
+
+				<div class="mt-2 text-gray-600 text-xs">Found 25 events in your area!</div>
+			</div>
+		</div>
+
+		<div class="px-4 lg:px-6 py-16">
+			<div class="container mx-auto">
+				<div class="md:flex md:flex-wrap md:flex-1 -mx-4 mb-10">
+					<div class="md:w-1/4 px-4 mb-6">
+						<card class="h-64 w-full bg-gray-200"></card>
+					</div>
+					<div class="md:w-1/4 px-4 mb-6">
+						<card class="h-64 w-full bg-gray-200"></card>
+					</div>
+					<div class="md:w-1/4 px-4 mb-6">
+						<card class="h-64 w-full bg-gray-200"></card>
+					</div>
+					<div class="md:w-1/4 px-4 mb-6">
+						<card class="h-64 w-full bg-gray-200"></card>
+					</div>
+					<div class="md:w-1/4 px-4 mb-6">
+						<card class="h-64 w-full bg-gray-200"></card>
+					</div>
+					<div class="md:w-1/4 px-4 mb-6">
+						<card class="h-64 w-full bg-gray-200"></card>
+					</div>
+					<div class="md:w-1/4 px-4 mb-6">
+						<card class="h-64 w-full bg-gray-200"></card>
+					</div>
+					<div class="md:w-1/4 px-4 mb-6">
+						<card class="h-64 w-full bg-gray-200"></card>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 </template>
@@ -122,6 +169,7 @@ import BasicTable from "@/Shared/tuis/BasicTable";
 import Badge from "@/Shared/tuis/Badge";
 import Alert from "@/Shared/tuis/Alert";
 import SearchInput from "@/Shared/tuis/SearchInput";
+import LoadingButton from "@/Shared/tuis/LoadingButton";
 
 export default {
 	components: {
@@ -131,7 +179,8 @@ export default {
 		BasicTable,
 		Badge,
 		Alert,
-		SearchInput
+		SearchInput,
+		LoadingButton
 	},
 
 	data() {

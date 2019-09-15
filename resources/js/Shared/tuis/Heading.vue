@@ -3,7 +3,7 @@
 		<p :class="cssClasses" v-if="tag == 'p'">
 			<slot></slot>
 		</p>
-		<h1 :class="cssClasses" v-if="tag == 'h2'">
+		<h1 :class="cssClasses" v-if="tag == 'h1'">
 			<slot></slot>
 		</h1>
 		<h2 :class="cssClasses" v-if="tag == 'h2'">

@@ -259,7 +259,7 @@ var render = function() {
       ? _c("p", { class: _vm.cssClasses }, [_vm._t("default")], 2)
       : _vm._e(),
     _vm._v(" "),
-    _vm.tag == "h2"
+    _vm.tag == "h1"
       ? _c("h1", { class: _vm.cssClasses }, [_vm._t("default")], 2)
       : _vm._e(),
     _vm._v(" "),
