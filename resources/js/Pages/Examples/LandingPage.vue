@@ -112,50 +112,213 @@
 			</div>
 		</div>
 
-		<div class="bg-gray-200 px-4 py-10">
+		<div
+			class="bg-blue-700 px-4 py-16 relative"
+			style="background-image: url('./bg-hero2.jpg'); background-repeat: no-repeat; background-size: cover; background-position: 40% 40%; background-blend-mode: multiply;"
+		>
 			<div class="mx-auto max-w-2xl text-center">
-				<heading
-					size="heading2"
-					tag="h1"
-					class="mb-4"
-				>Find amazing events happening around your nearby places</heading>
+				<h1
+					class="mb-4 text-4xl font-bold leading-tight text-blue-100"
+				>Find amazing events happening around your nearby places</h1>
 
-				<search-input rounded="large" placeholder="Near Guwahati..."></search-input>
+				<search-input rounded="large" placeholder="eg. Concerts near Guwahati..."></search-input>
 
-				<div class="mt-2 text-gray-600 text-xs">Found 25 events in your area!</div>
+				<div class="mt-2 text-blue-200 text-sm">Found 25 events in your area!</div>
+			</div>
+		</div>
+
+		<div class="px-4 lg:px-6 pt-16 pb-10 bg-white">
+			<div class="container mx-auto">
+				<div class="flex justify-between">
+					<heading size="heading" class="mb-6 text-center">Upcoming Events</heading>
+					<a href="#" class="text-blue-600 hover:text-blue-700 font-semibold">View All</a>
+				</div>
+				<div class="md:flex md:flex-wrap md:flex-1 -mx-4 mb-10">
+					<div class="md:w-1/4 px-4 mb-8">
+						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+						<div class="flex">
+							<div class="pl-2 pr-3 border-r-2">
+								<heading size="heading">24</heading>
+								<heading size="small-caps">Dec</heading>
+							</div>
+							<div class="px-4">
+								<heading size="large">Some Fancy Event</heading>
+								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-8">
+						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+						<div class="flex">
+							<div class="pl-2 pr-3 border-r-2">
+								<heading size="heading">24</heading>
+								<heading size="small-caps">Dec</heading>
+							</div>
+							<div class="px-4">
+								<heading size="large">Some Fancy Event</heading>
+								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-8">
+						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+						<div class="flex">
+							<div class="pl-2 pr-3 border-r-2">
+								<heading size="heading">24</heading>
+								<heading size="small-caps">Dec</heading>
+							</div>
+							<div class="px-4">
+								<heading size="large">Some Fancy Event</heading>
+								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-8">
+						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+						<div class="flex">
+							<div class="pl-2 pr-3 border-r-2">
+								<heading size="heading">24</heading>
+								<heading size="small-caps">Dec</heading>
+							</div>
+							<div class="px-4">
+								<heading size="large">Some Fancy Event</heading>
+								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-8">
+						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+						<div class="flex">
+							<div class="pl-2 pr-3 border-r-2">
+								<heading size="heading">24</heading>
+								<heading size="small-caps">Dec</heading>
+							</div>
+							<div class="px-4">
+								<heading size="large">Some Fancy Event</heading>
+								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-8">
+						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+						<div class="flex">
+							<div class="pl-2 pr-3 border-r-2">
+								<heading size="heading">24</heading>
+								<heading size="small-caps">Dec</heading>
+							</div>
+							<div class="px-4">
+								<heading size="large">Some Fancy Event</heading>
+								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-8">
+						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+						<div class="flex">
+							<div class="pl-2 pr-3 border-r-2">
+								<heading size="heading">24</heading>
+								<heading size="small-caps">Dec</heading>
+							</div>
+							<div class="px-4">
+								<heading size="large">Some Fancy Event</heading>
+								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-8">
+						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+						<div class="flex">
+							<div class="pl-2 pr-3 border-r-2">
+								<heading size="heading">24</heading>
+								<heading size="small-caps">Dec</heading>
+							</div>
+							<div class="px-4">
+								<heading size="large">Some Fancy Event</heading>
+								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
 
 		<div class="px-4 lg:px-6 py-16">
 			<div class="container mx-auto">
+				<heading size="heading" class="mb-6 text-center">Event Categories</heading>
 				<div class="md:flex md:flex-wrap md:flex-1 -mx-4 mb-10">
 					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-64 w-full bg-gray-200"></card>
+						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Music</card>
 					</div>
 					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-64 w-full bg-gray-200"></card>
+						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Cultural Night</card>
 					</div>
 					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-64 w-full bg-gray-200"></card>
+						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Food Fest</card>
 					</div>
 					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-64 w-full bg-gray-200"></card>
+						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Sports</card>
 					</div>
 					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-64 w-full bg-gray-200"></card>
+						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Theatre/Plays</card>
 					</div>
 					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-64 w-full bg-gray-200"></card>
+						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Conference/Seminars</card>
 					</div>
 					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-64 w-full bg-gray-200"></card>
+						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Education</card>
 					</div>
 					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-64 w-full bg-gray-200"></card>
+						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Medical</card>
 					</div>
 				</div>
 			</div>
 		</div>
+
+		<div class="px-4 lg:px-6 py-16 bg-white">
+			<div class="container mx-auto">
+				<div class="md:flex md:flex-wrap md:flex-1 -mx-4">
+					<div class="md:w-1/4 px-4 mb-6">
+						<heading class="mb-3" size="small-caps">Eventeefy</heading>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">About</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Careers</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Privacy &amp; Policy</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Help</a>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-6">
+						<heading class="mb-3" size="small-caps">Help</heading>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Selling your tickets</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Contact us</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Payment</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Extra Service</a>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-6">
+						<heading class="mb-3" size="small-caps">Join us</heading>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Discover</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Sell Tickets</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Buy Tickets</a>
+					</div>
+
+					<div class="md:w-1/4 px-4 mb-6">
+						<heading class="mb-3" size="small-caps">Get Connected</heading>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Facebook</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Twitter</a>
+						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Instagram</a>
+					</div>
+				</div>
+
+				<div class="pt-8 border-t text-sm">Copyright &copy; 2019 Eventeefy. All rights reserved.</div>
+			</div>
+		</div>
+		<div class="h-3 bg-gray-400"></div>
 	</div>
 </template>
 
