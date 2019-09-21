@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"22de4ea9f91f402a5ce4","1":"e749b22c79493c1e841d","2":"69b8ddebad0ec55d260b","11":"b8c3f6cec98bc1fe2791","15":"85059c36b2d98dbfe91e","24":"e9b5202e2fd12521b581","29":"e3bce584812d16d85b13","30":"0681f9e77d24439ec3d0","31":"54c13b21f92554813c05","32":"90f4e1830216af03d322","33":"41051603713e3cf13d2d","34":"07786474cff44f5502de","35":"d1e5c4fd4a7f584a5b02","36":"faba2e619a4b315f021a","37":"69f47dd5d7a403372084","38":"6398f62f5618ca4e40d3","39":"51afad9b4f4e32b941ff","40":"1767f38a9971a4d59126","41":"7a574a79b5572419f87b","42":"85821b499d03f26be0a9","43":"ac8ac342a0d43d608317","44":"4aa869805172556f20d2","45":"79f0c0d25528aa2c955f","46":"682c66a7494c0e307f8a","47":"c65c0ff4b46252c76146","48":"6f96e765d2fbc684d4a0","49":"a569a429fa0cae790844","50":"85fa5010f0477410a6eb","51":"285de013a7f24afdb653","52":"e5acdca5fcd9faf45428"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"9cdb0c07b66eb2387eb7","1":"e749b22c79493c1e841d","2":"69b8ddebad0ec55d260b","6":"b33f4a0bc46398a08719","13":"06e0c5164a925a8337e0","17":"7b0cdb711b7a8d840e02","25":"91615067e9efd3bf2fb3","27":"7907511ac51b49945a62","32":"92d3b7da29fe79b3cd3e","33":"3fba11e7f9ca33e7ef7f","34":"f9d50d6e2a0ebc4aafb1","35":"fdbf102671b33f7d75ad","36":"5b64c92bb3be5101420b","37":"fc2791e170d01e34ecd0","38":"47075ee8f6eeff127f0e","39":"f49dcfc8aca0cd6cd6b9","40":"d6c55e7e03af30eecc27","41":"b2b16ac8b933481f43b8","42":"851aab0fc78e37188b5a","43":"3863eff9d324542ee45d","44":"a7067925bbddbccc35c1","45":"635b0ad50db2a5cdd588","46":"bc4cda7a1e7da26f40c0","47":"e8821f7f678bb5785bd7","48":"8cf524e65254c6d8e2dc","49":"22f80bdf1e780cddb42f","50":"683edf044390e97279b0","51":"1f18ab344641f4bdac4b","52":"25c3689df9c0371d44e2","53":"596b2b565b15448cbebf","54":"f1d679b23465931af81d","55":"f2ecbc054b0b7064843d","56":"8d99dbcecef2398f9652"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11610,376 +11610,398 @@ var map = {
 	"./Alert": [
 		"./resources/js/Pages/Alert.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		35
+		13,
+		38
 	],
 	"./Alert.vue": [
 		"./resources/js/Pages/Alert.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		35
+		13,
+		38
 	],
 	"./Avatar": [
 		"./resources/js/Pages/Avatar.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		42
+		13,
+		44
 	],
 	"./Avatar.vue": [
 		"./resources/js/Pages/Avatar.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		42
+		13,
+		44
 	],
 	"./Badge": [
 		"./resources/js/Pages/Badge.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		24,
-		48
+		13,
+		25,
+		50
 	],
 	"./Badge.vue": [
 		"./resources/js/Pages/Badge.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		24,
-		48
+		13,
+		25,
+		50
 	],
 	"./Button": [
 		"./resources/js/Pages/Button.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		36
+		13,
+		39
 	],
 	"./Button.vue": [
 		"./resources/js/Pages/Button.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		36
+		13,
+		39
 	],
 	"./Card": [
 		"./resources/js/Pages/Card.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		43
+		13,
+		45
 	],
 	"./Card.vue": [
 		"./resources/js/Pages/Card.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		43
+		13,
+		45
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
 		2,
 		1,
-		51
+		54
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
 		2,
 		1,
-		51
+		54
+	],
+	"./Datepicker": [
+		"./resources/js/Pages/Datepicker.vue",
+		2,
+		6,
+		0,
+		1,
+		13,
+		27,
+		52
+	],
+	"./Datepicker.vue": [
+		"./resources/js/Pages/Datepicker.vue",
+		2,
+		6,
+		0,
+		1,
+		13,
+		27,
+		52
 	],
 	"./Dropdown": [
 		"./resources/js/Pages/Dropdown.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		37
+		13,
+		40
 	],
 	"./Dropdown.vue": [
 		"./resources/js/Pages/Dropdown.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		37
+		13,
+		40
 	],
 	"./Examples/LandingPage": [
 		"./resources/js/Pages/Examples/LandingPage.vue",
 		2,
 		1,
-		11,
-		24,
-		29
+		13,
+		25,
+		32
 	],
 	"./Examples/LandingPage.vue": [
 		"./resources/js/Pages/Examples/LandingPage.vue",
 		2,
 		1,
-		11,
-		24,
-		29
+		13,
+		25,
+		32
 	],
 	"./Examples/LayoutOne": [
 		"./resources/js/Pages/Examples/LayoutOne.vue",
 		2,
 		1,
-		11,
-		24,
-		44
+		13,
+		25,
+		46
 	],
 	"./Examples/LayoutOne.vue": [
 		"./resources/js/Pages/Examples/LayoutOne.vue",
 		2,
 		1,
-		11,
-		24,
-		44
+		13,
+		25,
+		46
 	],
 	"./Examples/LayoutTwo": [
 		"./resources/js/Pages/Examples/LayoutTwo.vue",
 		2,
 		1,
-		11,
-		24,
-		33
+		13,
+		25,
+		36
 	],
 	"./Examples/LayoutTwo.vue": [
 		"./resources/js/Pages/Examples/LayoutTwo.vue",
 		2,
 		1,
-		11,
-		24,
-		33
+		13,
+		25,
+		36
 	],
 	"./Examples/Login": [
 		"./resources/js/Pages/Examples/Login.vue",
 		2,
 		1,
-		30
+		33
 	],
 	"./Examples/Login.vue": [
 		"./resources/js/Pages/Examples/Login.vue",
 		2,
 		1,
-		30
+		33
 	],
 	"./Examples/Navbar": [
 		"./resources/js/Pages/Examples/Navbar.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		34
+		13,
+		37
 	],
 	"./Examples/Navbar.vue": [
 		"./resources/js/Pages/Examples/Navbar.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		34
+		13,
+		37
 	],
 	"./Examples/Register": [
 		"./resources/js/Pages/Examples/Register.vue",
 		2,
 		1,
-		31
+		34
 	],
 	"./Examples/Register.vue": [
 		"./resources/js/Pages/Examples/Register.vue",
 		2,
 		1,
-		31
+		34
 	],
 	"./GetStarted": [
 		"./resources/js/Pages/GetStarted.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		47
+		13,
+		49
 	],
 	"./GetStarted.vue": [
 		"./resources/js/Pages/GetStarted.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		47
+		13,
+		49
 	],
 	"./Heading": [
 		"./resources/js/Pages/Heading.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		49
+		13,
+		51
 	],
 	"./Heading.vue": [
 		"./resources/js/Pages/Heading.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		49
+		13,
+		51
 	],
 	"./Input": [
 		"./resources/js/Pages/Input.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		38
+		13,
+		41
 	],
 	"./Input.vue": [
 		"./resources/js/Pages/Input.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		38
+		13,
+		41
 	],
 	"./Radio": [
 		"./resources/js/Pages/Radio.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		15,
-		39
+		13,
+		17,
+		42
 	],
 	"./Radio.vue": [
 		"./resources/js/Pages/Radio.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		15,
-		39
+		13,
+		17,
+		42
 	],
 	"./Search": [
 		"./resources/js/Pages/Search.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		40
+		13,
+		43
 	],
 	"./Search.vue": [
 		"./resources/js/Pages/Search.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		40
+		13,
+		43
 	],
 	"./Select": [
 		"./resources/js/Pages/Select.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		15,
-		52
+		13,
+		17,
+		55
 	],
 	"./Select.vue": [
 		"./resources/js/Pages/Select.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		15,
-		52
+		13,
+		17,
+		55
 	],
 	"./Spinner": [
 		"./resources/js/Pages/Spinner.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		46
+		13,
+		48
 	],
 	"./Spinner.vue": [
 		"./resources/js/Pages/Spinner.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		46
+		13,
+		48
 	],
 	"./Switch": [
 		"./resources/js/Pages/Switch.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		41
+		13,
+		27,
+		56
 	],
 	"./Switch.vue": [
 		"./resources/js/Pages/Switch.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		41
+		13,
+		27,
+		56
 	],
 	"./Table": [
 		"./resources/js/Pages/Table.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		45
+		13,
+		47
 	],
 	"./Table.vue": [
 		"./resources/js/Pages/Table.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		45
+		13,
+		47
 	],
 	"./Toast": [
 		"./resources/js/Pages/Toast.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		32
+		13,
+		35
 	],
 	"./Toast.vue": [
 		"./resources/js/Pages/Toast.vue",
 		2,
-		0,
+		6,
 		1,
-		11,
-		32
+		13,
+		35
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
 		2,
 		1,
-		50
+		53
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
 		2,
 		1,
-		50
+		53
 	]
 };
 function webpackAsyncContext(req) {

@@ -134,106 +134,10 @@
 					<a href="#" class="text-blue-600 hover:text-blue-700 font-semibold">View All</a>
 				</div>
 				<div class="md:flex md:flex-wrap md:flex-1 -mx-4 mb-10">
-					<div class="md:w-1/4 px-4 mb-8">
-						<card class="h-64 w-full bg-gray-200 mb-3"></card>
-						<div class="flex">
-							<div class="pl-2 pr-3 border-r-2">
-								<heading size="heading">24</heading>
-								<heading size="small-caps">Dec</heading>
-							</div>
-							<div class="px-4">
-								<heading size="large">Some Fancy Event</heading>
-								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="md:w-1/4 px-4 mb-8">
-						<card class="h-64 w-full bg-gray-200 mb-3"></card>
-						<div class="flex">
-							<div class="pl-2 pr-3 border-r-2">
-								<heading size="heading">24</heading>
-								<heading size="small-caps">Dec</heading>
-							</div>
-							<div class="px-4">
-								<heading size="large">Some Fancy Event</heading>
-								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="md:w-1/4 px-4 mb-8">
-						<card class="h-64 w-full bg-gray-200 mb-3"></card>
-						<div class="flex">
-							<div class="pl-2 pr-3 border-r-2">
-								<heading size="heading">24</heading>
-								<heading size="small-caps">Dec</heading>
-							</div>
-							<div class="px-4">
-								<heading size="large">Some Fancy Event</heading>
-								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="md:w-1/4 px-4 mb-8">
-						<card class="h-64 w-full bg-gray-200 mb-3"></card>
-						<div class="flex">
-							<div class="pl-2 pr-3 border-r-2">
-								<heading size="heading">24</heading>
-								<heading size="small-caps">Dec</heading>
-							</div>
-							<div class="px-4">
-								<heading size="large">Some Fancy Event</heading>
-								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="md:w-1/4 px-4 mb-8">
-						<card class="h-64 w-full bg-gray-200 mb-3"></card>
-						<div class="flex">
-							<div class="pl-2 pr-3 border-r-2">
-								<heading size="heading">24</heading>
-								<heading size="small-caps">Dec</heading>
-							</div>
-							<div class="px-4">
-								<heading size="large">Some Fancy Event</heading>
-								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="md:w-1/4 px-4 mb-8">
-						<card class="h-64 w-full bg-gray-200 mb-3"></card>
-						<div class="flex">
-							<div class="pl-2 pr-3 border-r-2">
-								<heading size="heading">24</heading>
-								<heading size="small-caps">Dec</heading>
-							</div>
-							<div class="px-4">
-								<heading size="large">Some Fancy Event</heading>
-								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="md:w-1/4 px-4 mb-8">
-						<card class="h-64 w-full bg-gray-200 mb-3"></card>
-						<div class="flex">
-							<div class="pl-2 pr-3 border-r-2">
-								<heading size="heading">24</heading>
-								<heading size="small-caps">Dec</heading>
-							</div>
-							<div class="px-4">
-								<heading size="large">Some Fancy Event</heading>
-								<div class="text-gray-500 text-sm">Near Uzanbazar, Guwahati</div>
-							</div>
-						</div>
-					</div>
-
-					<div class="md:w-1/4 px-4 mb-8">
-						<card class="h-64 w-full bg-gray-200 mb-3"></card>
+					<div class="md:w-1/4 px-4 mb-8" v-for="(i, idx2) in 8" :key="idx2">
+						<card class="w-full bg-gray-200 mb-3" :is-padding="false">
+							<img src="/bg-hero.jpg" alt class="object-cover rounded-lg" />
+						</card>
 						<div class="flex">
 							<div class="pl-2 pr-3 border-r-2">
 								<heading size="heading">24</heading>
@@ -253,29 +157,24 @@
 			<div class="container mx-auto">
 				<heading size="heading" class="mb-6 text-center">Event Categories</heading>
 				<div class="md:flex md:flex-wrap md:flex-1 -mx-4 mb-10">
-					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Music</card>
-					</div>
-					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Cultural Night</card>
-					</div>
-					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Food Fest</card>
-					</div>
-					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Sports</card>
-					</div>
-					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Theatre/Plays</card>
-					</div>
-					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Conference/Seminars</card>
-					</div>
-					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Education</card>
-					</div>
-					<div class="md:w-1/4 px-4 mb-6">
-						<card class="h-48 w-full bg-gray-200 flex items-center justify-center">Medical</card>
+					<div class="md:w-1/4 px-4 mb-6" v-for="(i, idx) in 8" :key="idx">
+						<card
+							class="overlay-black h-48 w-full bg-gray-200 flex items-center justify-center relative"
+							:is-padding="false"
+						>
+							<img src="/bg-hero2.jpg" alt class="object-cover rounded-lg" />
+
+							<div class="absolute mb-4 ml-3 bottom-0 left-0 z-10">
+								<span class="block leading-none text-white text-lg">Music</span>
+							</div>
+
+							<div
+								class="absolute mt-4 mr-3 top-0 right-0 w-12 h-12 bg-orange-100 rounded-full flex flex-col items-center justify-center z-10"
+							>
+								<span class="block font-bold leading-none text-orange-600">25+</span>
+								<span class="block text-xs leading-tight">Event</span>
+							</div>
+						</card>
 					</div>
 				</div>
 			</div>
@@ -285,7 +184,7 @@
 			<div class="container mx-auto">
 				<div class="md:flex md:flex-wrap md:flex-1 -mx-4">
 					<div class="md:w-1/4 px-4 mb-6">
-						<heading class="mb-3" size="small-caps">Eventeefy</heading>
+						<heading class="mb-3" size="small-caps">Example</heading>
 						<a href="#" class="block text-sm mb-2 hover:text-blue-600">About</a>
 						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Careers</a>
 						<a href="#" class="block text-sm mb-2 hover:text-blue-600">Privacy &amp; Policy</a>
@@ -315,7 +214,7 @@
 					</div>
 				</div>
 
-				<div class="pt-8 border-t text-sm">Copyright &copy; 2019 Eventeefy. All rights reserved.</div>
+				<div class="pt-8 border-t text-sm">Copyright &copy; 2019 Example. All rights reserved.</div>
 			</div>
 		</div>
 		<div class="h-3 bg-gray-400"></div>
@@ -376,6 +275,37 @@ export default {
 	border-bottom-left-radius: 0px;
 	border-bottom-right-radius: 0px;
 	background-color: #4299e1; /* Change this color a/c to theme */
+}
+
+.overlay-black {
+	position: relative;
+}
+.overlay-black:after {
+	position: absolute;
+	content: "";
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	display: block;
+	height: 100%;
+	background-image: -webkit-linear-gradient(
+		rgba(0, 0, 0, 0.01) 0%,
+		rgba(0, 0, 0, 0.1) 45%,
+		rgba(0, 0, 0, 0.75) 100%
+	);
+	background-image: -o-linear-gradient(
+		rgba(0, 0, 0, 0.01) 0%,
+		rgba(0, 0, 0, 0.1) 45%,
+		rgba(0, 0, 0, 0.75) 100%
+	);
+	background-image: linear-gradient(
+		rgba(0, 0, 0, 0.01) 0%,
+		rgba(0, 0, 0, 0.1) 45%,
+		rgba(0, 0, 0, 0.75) 100%
+	);
+	z-index: 1;
 }
 </style>
  

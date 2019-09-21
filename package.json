@@ -23,6 +23,8 @@
         "vue-template-compiler": "^2.6.10"
     },
     "dependencies": {
+        "moment": "^2.24.0",
+        "pikaday": "^1.8.0",
         "prismjs": "^1.17.1",
         "vue": "^2.6.10",
         "vue-mobile-detection": "^1.0.0",

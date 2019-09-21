@@ -44,6 +44,10 @@ Route::get('/card', function () {
     return Inertia::render('Card');
 });
 
+Route::get('/datepicker', function () {
+    return Inertia::render('Datepicker');
+});
+
 Route::get('/dropdown', function () {
     return Inertia::render('Dropdown');
 });
