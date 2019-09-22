@@ -64,6 +64,10 @@ Route::get('/radio', function () {
     return Inertia::render('Radio');
 });
 
+Route::get('/simple-editor', function () {
+    return Inertia::render('SimpleEditor');
+});
+
 Route::get('/select', function () {
     return Inertia::render('Select');
 });

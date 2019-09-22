@@ -43,7 +43,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"9cdb0c07b66eb2387eb7","1":"e749b22c79493c1e841d","2":"69b8ddebad0ec55d260b","6":"b33f4a0bc46398a08719","13":"06e0c5164a925a8337e0","17":"7b0cdb711b7a8d840e02","25":"91615067e9efd3bf2fb3","27":"7907511ac51b49945a62","32":"92d3b7da29fe79b3cd3e","33":"3fba11e7f9ca33e7ef7f","34":"f9d50d6e2a0ebc4aafb1","35":"fdbf102671b33f7d75ad","36":"5b64c92bb3be5101420b","37":"fc2791e170d01e34ecd0","38":"47075ee8f6eeff127f0e","39":"f49dcfc8aca0cd6cd6b9","40":"d6c55e7e03af30eecc27","41":"b2b16ac8b933481f43b8","42":"851aab0fc78e37188b5a","43":"3863eff9d324542ee45d","44":"a7067925bbddbccc35c1","45":"635b0ad50db2a5cdd588","46":"bc4cda7a1e7da26f40c0","47":"e8821f7f678bb5785bd7","48":"8cf524e65254c6d8e2dc","49":"22f80bdf1e780cddb42f","50":"683edf044390e97279b0","51":"1f18ab344641f4bdac4b","52":"25c3689df9c0371d44e2","53":"596b2b565b15448cbebf","54":"f1d679b23465931af81d","55":"f2ecbc054b0b7064843d","56":"8d99dbcecef2398f9652"}[chunkId] + ""
+/******/ 		return __webpack_require__.p + "js/" + ({}[chunkId]||chunkId) + ".js?id=" + {"0":"9cdb0c07b66eb2387eb7","1":"149def69b6864ca33047","3":"0517bb7927b26df9f196","6":"b33f4a0bc46398a08719","14":"6af5b696e1ea20c2f3b2","18":"6cdec453286cac73ad8b","26":"c17e8f57aee9e8a408d4","27":"c6596a588e3e9e535d6b","33":"505c4b30266c29d97389","34":"9b37b593754bdb85a1cb","35":"62cf85aa01f069f2118b","36":"61a0192f26230e43e04d","37":"9e1016e3a5a2c0f9ec9d","38":"fef39386d99db8badadd","39":"41148c7b8ae0064bf5f5","40":"600dcd7702f34b9b6c36","41":"41a9b04dd6023fc48397","42":"1b676cc8028b794f30a2","43":"4ec244ae3f56926b5aec","44":"bd531dba1a15acab49b8","45":"b0d22ea6278174643d95","46":"7352a0e396bf2689ffd4","47":"f567fbe57cd7ce827345","48":"0332f5eff01af05f3bbb","49":"98e22e01ad6b548e6b5e","50":"a1665c976d1efb3b8a88","51":"da229414fb034f7b492a","52":"25c3689df9c0371d44e2","53":"e9bb84697eab4b9870f4","54":"54f63b718a542b4e4619","55":"c3ca8815a273b3ad06e5","56":"9292701dfb2506d42165","57":"edbe0ce5a8ee6b77557e","58":"dee26505cac8c49c6cfa","59":"238e9ddb9e7723ef6c51"}[chunkId] + ""
 /******/ 	}
 /******/
 /******/ 	// The require function
@@ -11609,399 +11609,417 @@ module.exports = g;
 var map = {
 	"./Alert": [
 		"./resources/js/Pages/Alert.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		38
+		14,
+		40
 	],
 	"./Alert.vue": [
 		"./resources/js/Pages/Alert.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		38
+		14,
+		40
 	],
 	"./Avatar": [
 		"./resources/js/Pages/Avatar.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		44
+		14,
+		46
 	],
 	"./Avatar.vue": [
 		"./resources/js/Pages/Avatar.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		44
+		14,
+		46
 	],
 	"./Badge": [
 		"./resources/js/Pages/Badge.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		25,
-		50
+		14,
+		27,
+		53
 	],
 	"./Badge.vue": [
 		"./resources/js/Pages/Badge.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		25,
-		50
+		14,
+		27,
+		53
 	],
 	"./Button": [
 		"./resources/js/Pages/Button.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		39
+		14,
+		41
 	],
 	"./Button.vue": [
 		"./resources/js/Pages/Button.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		39
+		14,
+		41
 	],
 	"./Card": [
 		"./resources/js/Pages/Card.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		45
+		14,
+		47
 	],
 	"./Card.vue": [
 		"./resources/js/Pages/Card.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		45
+		14,
+		47
 	],
 	"./Contact": [
 		"./resources/js/Pages/Contact.vue",
-		2,
+		3,
 		1,
-		54
+		56
 	],
 	"./Contact.vue": [
 		"./resources/js/Pages/Contact.vue",
-		2,
+		3,
 		1,
-		54
+		56
 	],
 	"./Datepicker": [
 		"./resources/js/Pages/Datepicker.vue",
-		2,
+		3,
 		6,
 		0,
 		1,
-		13,
-		27,
+		14,
+		26,
 		52
 	],
 	"./Datepicker.vue": [
 		"./resources/js/Pages/Datepicker.vue",
-		2,
+		3,
 		6,
 		0,
 		1,
-		13,
-		27,
+		14,
+		26,
 		52
 	],
 	"./Dropdown": [
 		"./resources/js/Pages/Dropdown.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		40
+		14,
+		42
 	],
 	"./Dropdown.vue": [
 		"./resources/js/Pages/Dropdown.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		40
+		14,
+		42
 	],
 	"./Examples/LandingPage": [
 		"./resources/js/Pages/Examples/LandingPage.vue",
-		2,
+		3,
 		1,
-		13,
-		25,
-		32
+		14,
+		27,
+		34
 	],
 	"./Examples/LandingPage.vue": [
 		"./resources/js/Pages/Examples/LandingPage.vue",
-		2,
+		3,
 		1,
-		13,
-		25,
-		32
+		14,
+		27,
+		34
 	],
 	"./Examples/LayoutOne": [
 		"./resources/js/Pages/Examples/LayoutOne.vue",
-		2,
+		3,
 		1,
-		13,
-		25,
-		46
+		14,
+		27,
+		48
 	],
 	"./Examples/LayoutOne.vue": [
 		"./resources/js/Pages/Examples/LayoutOne.vue",
-		2,
+		3,
 		1,
-		13,
-		25,
-		46
+		14,
+		27,
+		48
 	],
 	"./Examples/LayoutTwo": [
 		"./resources/js/Pages/Examples/LayoutTwo.vue",
-		2,
+		3,
 		1,
-		13,
-		25,
-		36
+		14,
+		27,
+		38
 	],
 	"./Examples/LayoutTwo.vue": [
 		"./resources/js/Pages/Examples/LayoutTwo.vue",
-		2,
+		3,
 		1,
-		13,
-		25,
-		36
+		14,
+		27,
+		38
 	],
 	"./Examples/Login": [
 		"./resources/js/Pages/Examples/Login.vue",
-		2,
+		3,
 		1,
-		33
+		35
 	],
 	"./Examples/Login.vue": [
 		"./resources/js/Pages/Examples/Login.vue",
-		2,
+		3,
 		1,
-		33
+		35
 	],
 	"./Examples/Navbar": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		37
+		14,
+		39
 	],
 	"./Examples/Navbar.vue": [
 		"./resources/js/Pages/Examples/Navbar.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		37
+		14,
+		39
 	],
 	"./Examples/Register": [
 		"./resources/js/Pages/Examples/Register.vue",
-		2,
+		3,
 		1,
-		34
+		36
 	],
 	"./Examples/Register.vue": [
 		"./resources/js/Pages/Examples/Register.vue",
-		2,
+		3,
 		1,
-		34
+		36
 	],
 	"./GetStarted": [
 		"./resources/js/Pages/GetStarted.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		49
+		14,
+		51
 	],
 	"./GetStarted.vue": [
 		"./resources/js/Pages/GetStarted.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		49
+		14,
+		51
 	],
 	"./Heading": [
 		"./resources/js/Pages/Heading.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		51
+		14,
+		54
 	],
 	"./Heading.vue": [
 		"./resources/js/Pages/Heading.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		51
+		14,
+		54
 	],
 	"./Input": [
 		"./resources/js/Pages/Input.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		41
+		14,
+		43
 	],
 	"./Input.vue": [
 		"./resources/js/Pages/Input.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		41
+		14,
+		43
 	],
 	"./Radio": [
 		"./resources/js/Pages/Radio.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		17,
-		42
+		14,
+		18,
+		44
 	],
 	"./Radio.vue": [
 		"./resources/js/Pages/Radio.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		17,
-		42
+		14,
+		18,
+		44
 	],
 	"./Search": [
 		"./resources/js/Pages/Search.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		43
+		14,
+		45
 	],
 	"./Search.vue": [
 		"./resources/js/Pages/Search.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		43
+		14,
+		45
 	],
 	"./Select": [
 		"./resources/js/Pages/Select.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		17,
-		55
+		14,
+		18,
+		57
 	],
 	"./Select.vue": [
 		"./resources/js/Pages/Select.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		17,
-		55
+		14,
+		18,
+		57
+	],
+	"./SimpleEditor": [
+		"./resources/js/Pages/SimpleEditor.vue",
+		3,
+		6,
+		59,
+		1,
+		14,
+		33
+	],
+	"./SimpleEditor.vue": [
+		"./resources/js/Pages/SimpleEditor.vue",
+		3,
+		6,
+		59,
+		1,
+		14,
+		33
 	],
 	"./Spinner": [
 		"./resources/js/Pages/Spinner.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		48
+		14,
+		50
 	],
 	"./Spinner.vue": [
 		"./resources/js/Pages/Spinner.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		48
+		14,
+		50
 	],
 	"./Switch": [
 		"./resources/js/Pages/Switch.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		27,
-		56
+		14,
+		26,
+		58
 	],
 	"./Switch.vue": [
 		"./resources/js/Pages/Switch.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		27,
-		56
+		14,
+		26,
+		58
 	],
 	"./Table": [
 		"./resources/js/Pages/Table.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		47
+		14,
+		49
 	],
 	"./Table.vue": [
 		"./resources/js/Pages/Table.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		47
+		14,
+		49
 	],
 	"./Toast": [
 		"./resources/js/Pages/Toast.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		35
+		14,
+		37
 	],
 	"./Toast.vue": [
 		"./resources/js/Pages/Toast.vue",
-		2,
+		3,
 		6,
 		1,
-		13,
-		35
+		14,
+		37
 	],
 	"./Welcome": [
 		"./resources/js/Pages/Welcome.vue",
-		2,
+		3,
 		1,
-		53
+		55
 	],
 	"./Welcome.vue": [
 		"./resources/js/Pages/Welcome.vue",
-		2,
+		3,
 		1,
-		53
+		55
 	]
 };
 function webpackAsyncContext(req) {

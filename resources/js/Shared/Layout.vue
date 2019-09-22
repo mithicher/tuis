@@ -110,6 +110,12 @@
 						>Checkbox</inertia-link>
 
 						<inertia-link
+							:class="isUrl('datepicker') ? 'text-blue-500 bg-gray-100' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/datepicker"
+						>Datepicker</inertia-link>
+
+						<inertia-link
 							:class="isUrl('dropdown') ? 'text-blue-500 bg-gray-100' : ''"
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
 							href="/dropdown"
@@ -142,6 +148,12 @@
 							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
 							href="/radio"
 						>Radio</inertia-link>
+
+						<inertia-link
+							:class="isUrl('simple-editor') ? 'text-blue-500 bg-gray-100' : ''"
+							class="rounded-lg hover:bg-gray-100 text-gray-800 font-medium block py-1 px-5 hover:text-blue-500"
+							href="/simple-editor"
+						>Simple Editor</inertia-link>
 
 						<inertia-link
 							:class="isUrl('select') ? 'text-blue-500 bg-gray-100' : ''"
