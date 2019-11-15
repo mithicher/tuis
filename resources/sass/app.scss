@@ -10,8 +10,8 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08);
 }
 
-@import "prism-atom-dark";
 @import "prism";
+@import "prism-atom-dark";
 code[class*="language-"],
 pre[class*="language-"] {
     font-family: "Operator Mono", "Dank Mono", Consolas, Monaco, "Andale Mono",
@@ -21,7 +21,7 @@ pre[class*="language-"] {
     font-style: italic;
 }
 
-active,
+.active,
 .active-left {
     position: relative;
 }
@@ -56,4 +56,8 @@ active,
     border-top-left-radius: 0px;
     border-bottom-left-radius: 0px;
     background-color: #4299e1;
+}
+
+.table-striped tbody tr:nth-child(even) {
+    background-color: #f7fafc;
 }

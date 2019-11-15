@@ -8,6 +8,7 @@ Vue.use(VueSnackbar, { close: true, position: "bottom-left" });
 Vue.use(VueMobileDetection);
 
 const app = document.getElementById("app");
+const files = require.context("./", true, /\.vue$/i);
 
 new Vue({
     render: h =>
@@ -17,5 +18,12 @@ new Vue({
                 resolveComponent: name =>
                     import(`@/Pages/${name}`).then(module => module.default)
             }
+            // props: {
+            //     component: app.dataset.component,
+            //     props: JSON.parse(app.dataset.props),
+            //     resolveComponent: component => {
+            //         return files(`./Pages/${component}.vue`).default;
+            //     }
+            // }
         })
 }).$mount(app);
