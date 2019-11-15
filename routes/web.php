@@ -60,6 +60,10 @@ Route::get('/input', function () {
     return Inertia::render('Input');
 });
 
+Route::get('/paragraph', function () {
+    return Inertia::render('Paragraph');
+});
+
 Route::get('/radio', function () {
     return Inertia::render('Radio');
 });
