@@ -398,14 +398,39 @@
                     >
                         <p class="text-gray-600 text-sm">
                             Made with
-                            <span class="text-red-400">&hearts;</span> Guwahati.
-                            Created by
+                            <span class="text-red-400">&hearts;</span> in
+                            Guwahati. Created by
                             <a
                                 href="https://twitter.com/mithicher"
                                 target="_blank"
                                 class="text-blue-500 hover:text-blue-700"
                                 >@mithicher</a
-                            >.
+                            >. Built with
+                            <a
+                                target="_blank"
+                                class="text-blue-500 hover:text-blue-700"
+                                href="https://laravel.com"
+                                >Laravel</a
+                            >,
+                            <a
+                                target="_blank"
+                                class="text-blue-500 hover:text-blue-700"
+                                href="https://vuejs.org"
+                                >Vue</a
+                            >,
+                            <a
+                                target="_blank"
+                                class="text-blue-500 hover:text-blue-700"
+                                href="http://inertiajs.com"
+                                >IntertiaJS</a
+                            >
+                            and
+                            <a
+                                target="_blank"
+                                class="text-blue-500 hover:text-blue-700"
+                                href="https://tailwindcss.com"
+                                >TailwindCSS</a
+                            >
                         </p>
                     </div>
                 </div>
