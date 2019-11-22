@@ -3,8 +3,8 @@
 		<div class="bg-white shadow-base px-4 relative z-20 md:z-20">
 			<div class="container md:flex items-center justify-between mx-auto">
 				<div class="flex justify-between md:flex-none items-center">
-					<a href="#" class="py-3">
-						<img src="/september_ui_logo.png" alt="logo" width="36" />
+					<a href="/" class="inline-flex items-center font-bold text-xl">
+						<img src="/sui.svg" alt="septemberui" width="44" title="September UI" />
 					</a>
 
 					<div

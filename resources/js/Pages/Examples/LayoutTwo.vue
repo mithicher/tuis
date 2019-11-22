@@ -18,8 +18,8 @@
 						<path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
 					</svg>
 				</div>
-				<a href="#">
-					<img src="/september_ui_logo.png" alt="logo" width="36" />
+				<a href="/" class="inline-flex items-center font-bold text-xl">
+					<img src="/sui.svg" alt="septemberui" width="44" title="September UI" />
 				</a>
 
 				<div

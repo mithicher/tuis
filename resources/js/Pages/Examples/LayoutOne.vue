@@ -2,10 +2,8 @@
 	<div>
 		<div class="md:flex items-center justify-between bg-white shadow-base px-4">
 			<div class="flex justify-between md:flex-none items-center">
-				<a href="#" class="py-3">
-					<div
-						class="w-10 h-10 rounded-full bg-blue-500 inline-flex items-center justify-center text-white font-bold"
-					>S.</div>
+				<a href="/" class="inline-flex items-center font-bold text-xl">
+					<img src="/sui.svg" alt="septemberui" width="44" title="September UI" />
 				</a>
 				<div
 					class="inline-block inline-flex items-center justify-center w-8 h-8 rounded-full mr-2 cursor-pointer md:hidden"
