@@ -24,7 +24,7 @@
     },
     "dependencies": {
         "laravel-mix-purgecss": "^4.2.0",
-        "moment": "^2.24.0",
+        "moment": "^2.29.4",
         "moment-locales-webpack-plugin": "^1.1.0",
         "pikaday": "^1.8.0",
         "prismjs": "^1.17.1",
